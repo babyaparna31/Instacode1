@@ -22,7 +22,7 @@ const App: React.FC = () => {
             {/* Define the routes for the application */}
             <Routes>
                 {/* Redirect the root path to the FindADoctorPage component */}
-                <Route path="/" element={<Navigate to="/FindADoctorPage" replace />} />
+                <Route path="/" element={<Navigate to="/Login" replace />} />
                 {/* Define a route for the FindADoctorPage component */}
                 <Route path="/FindADoctorPage" element={<FindADoctorPage />} />
                 {/* Define a route for the Formdr component */}
