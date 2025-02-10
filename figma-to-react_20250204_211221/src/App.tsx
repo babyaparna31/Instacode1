@@ -12,7 +12,7 @@ const App: React.FC = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Navigate to="/Login" replace />} />
+                <Route path="/" element={<Navigate to="/Popup" replace />} />
                 <Route path="/FindADoctorPage" element={<FindADoctorPage />} />
                 <Route path="/Formdr" element={<Formdr />} />
                 <Route path="/FormdrGeneralPhy" element={<FormdrGeneralPhy />} />
