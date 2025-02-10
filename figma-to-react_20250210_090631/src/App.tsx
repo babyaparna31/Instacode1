@@ -6,7 +6,7 @@ import React from 'react';
         return (
             <BrowserRouter>
                 <Routes>
-            <Route path="/" element={<Navigate to="/Loginuser" replace />} />
+            <Route path="/" element={<Navigate to="/Loginuse" replace />} />
         <Route path="/Loginuser" element={<Loginuser />} />
                 </Routes>
             </BrowserRouter>
