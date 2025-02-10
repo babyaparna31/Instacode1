@@ -1,0 +1,12 @@
+[
+  {
+    "component_name": "Loginuser",
+    "route": "/Loginuser",
+    "routing_config": {}
+  },
+  {
+    "component_name": "Updateuser",
+    "route": "/Updateuser",
+    "routing_config": {}
+  }
+]
