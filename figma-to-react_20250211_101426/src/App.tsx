@@ -7,7 +7,7 @@ import Loginuser from './components/Loginuser';
         return (
             <BrowserRouter>
                 <Routes>
-            <Route path="/" element={<Navigate to="/Frame2" replace />} />
+            <Route path="/" element={<Navigate to="/Loginuser" replace />} />
         <Route path="/Frame2" element={<Frame2 />} />
         <Route path="/Loginuser" element={<Loginuser />} />
                 </Routes>
