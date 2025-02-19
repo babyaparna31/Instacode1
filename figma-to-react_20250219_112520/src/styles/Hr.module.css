@@ -1,0 +1,818 @@
+.class-0 {width: 1441.0px; height: 1813.0px; position: relative; background: rgba(199, 212, 215, 1.0)}
+.class-1 {width: 1440px;
+            height: 54px;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-2 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-3 {width: 104.0px; height: 19.0px; white-space: normal;  left: 107px; top: 21px; position: absolute; text-align: left; color: #ffffff; font-size: 18.0px; font-family: Roboto; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-4 {width: 1440.0px; height: 54.0px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: rgba(0, 86, 255, 1.0); 
+                  box-shadow: 0.0px 4.0px 4.0px 0px rgba(61, 1, 132, 0.16); 
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-5 {width: 19px;
+            height: 17px;
+            left: 52px;
+            top: 22px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-6 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-7 {width: 5.0px; height: 5.0px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                   
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-8 {width: 5.0px; height: 5.0px; 
+                left: 7px; top: 0px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                   
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-9 {width: 5.0px; height: 5.0px; 
+                left: 14px; top: 0px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                   
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-10 {width: 5.0px; height: 5.0px; 
+                left: 0px; top: 6px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                   
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-11 {width: 5.0px; height: 5.0px; 
+                left: 7px; top: 6px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                   
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-12 {width: 5.0px; height: 5.0px; 
+                left: 14px; top: 6px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                   
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-13 {width: 5.0px; height: 5.0px; 
+                left: 0px; top: 12px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                   
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-14 {width: 5.0px; height: 5.0px; 
+                left: 7px; top: 12px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                   
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-15 {width: 5.0px; height: 5.0px; 
+                left: 14px; top: 12px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                   
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-16 {width: 11px;
+            height: 176px;
+            left: 1378px;
+            top: 569px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-17 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-18 {width: 11px;
+            height: 176px;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background: rgba(241, 241, 241, 1.0);
+            border: none; border-radius: 10px;}
+.class-19 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-20 {width: 7px;
+            height: 7px;
+            left: 2px;
+            top: 6px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-21 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-22 {width: 7.0px; height: 4.0px; left: 0px; top: 1px; position: absolute}
+.class-23 {width: 7px;
+            height: 7px;
+            left: 2px;
+            top: 163px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-24 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-25 {width: 7.0px; height: 4.0px; left: 0px; top: 2px; position: absolute}
+.class-26 {width: 13px;
+            height: 25px;
+            left: -1px;
+            top: 14px;
+            position: absolute;
+            background: rgba(193, 193, 193, 1.0);
+            border: none;}
+.class-27 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-28 {width: 13.0px; height: fit-content; white-space: normal;  left: 0px; top: 0px; position: absolute; text-align: left; color: #c1c1c1; font-size: 4.0px; font-family: Roboto; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-29 {width: 7.0px; height: 24.0px; 
+                left: 2px; top: 31px; 
+                position: absolute; background: rgba(217, 217, 217, 1.0); 
+                   
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-30 {width: 1345px;
+            height: 318px;
+            left: 48px;
+            top: 164px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-31 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-32 {width: 1345.0px; height: 318.0px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: linear-gradient(90.0deg, rgba(2, 91, 171, 1.0) 0.0%, rgba(10, 34, 68, 1.0) 100.0%); 
+                 border-radius: 20.0px;  
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-33 {width: 270.2px; height: fit-content; white-space: normal;  left: 105px; top: 97px; position: absolute; text-align: left; color: #ffffff; font-size: 42.0px; font-family: Avenir LT Std; font-weight: 750; letter-spacing: 0.0px; text-transform: none;}
+.class-34 {width: 473.35px; height: fit-content; white-space: normal;  left: 105px; top: 155px; position: absolute; text-align: left; color: #ffffff; font-size: 18.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-35 {width: 663.49px; height: 318.0px; 
+                left: 682px; top: 0px; 
+                position: absolute; object-fit: cover;}
+.class-36 {width: 438.0px; height: 277.0px; 
+                left: 955px; top: 498px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                 border-radius: 20.0px; box-shadow: 0.0px 4.0px 4.0px 0px rgba(0, 0, 0, 0.25); 
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-37 {width: 124.0px; height: fit-content; white-space: normal;  left: 980px; top: 520px; position: absolute; text-align: left; color: #000000; font-size: 16.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-38 {width: 891.0px; height: 583.0px; 
+                left: 48px; top: 498px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                 border-radius: 20.0px; box-shadow: 0.0px 4.0px 4.0px 0px rgba(61, 1, 132, 0.12); 
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-39 {width: 117.09px; height: fit-content; white-space: normal;  left: 73px; top: 520px; position: absolute; text-align: left; color: #000000; font-size: 16.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-40 {width: 438.0px; height: 296.0px; 
+                left: 955px; top: 785px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                 border-radius: 20.0px; box-shadow: 0.0px 4.0px 4.0px 0px rgba(0, 0, 0, 0.25); 
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-41 {width: 141.1px; height: fit-content; white-space: normal;  left: 980px; top: 806px; position: absolute; text-align: left; color: #000000; font-size: 16.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-42 {width: 188.728271484375px;
+            height: 105px;
+            left: 980px;
+            top: 843px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-43 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-44 {width: 188.73px; height: 105.0px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: rgba(6, 34, 71, 1.0); 
+                 border-radius: 4.0px;  
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-45 {width: 94.89131164550781px;
+            height: 57px;
+            left: 46px;
+            top: 24px;
+            position: absolute;
+            background: transparent;
+            border: none; border-radius: 5px;}
+.class-46 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-47 {width: 94.89131164550781px;
+            height: 57px;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background: transparent;
+            border: none; border-radius: 5px;}
+.class-48 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-49 {width: 94.89131164550781px;
+            height: 57px;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background: transparent;
+            border: none; border-radius: 5px;}
+.class-50 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-51 {width: 94.89px; height: 17.0px; white-space: normal;  left: 0px; top: 40px; position: absolute; text-align: left; color: #ffffff; font-size: 16.0px; font-family: Open Sans; font-weight: 600; letter-spacing: 0.0px; text-transform: none;}
+.class-52 {width: 52.72px; height: 40.0px; 
+                left: 21px; top: 0px; 
+                position: absolute; object-fit: cover;}
+.class-53 {width: 188.728271484375px;
+            height: 105px;
+            left: 1179px;
+            top: 843px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-54 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-55 {width: 188.73px; height: 105.0px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: rgba(6, 34, 71, 1.0); 
+                 border-radius: 4.0px;  
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-56 {width: 53.77173614501953px;
+            height: 57px;
+            left: 67px;
+            top: 24px;
+            position: absolute;
+            background: transparent;
+            border: none; border-radius: 5px;}
+.class-57 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-58 {width: 53.77173614501953px;
+            height: 57px;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background: transparent;
+            border: none; border-radius: 5px;}
+.class-59 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-60 {width: 53.77173614501953px;
+            height: 57px;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background: transparent;
+            border: none; border-radius: 5px;}
+.class-61 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-62 {width: 51.66px; height: 17.0px; white-space: normal;  left: 2px; top: 40px; position: absolute; text-align: left; color: #ffffff; font-size: 16.0px; font-family: Open Sans; font-weight: 600; letter-spacing: 0.0px; text-transform: none;}
+.class-63 {width: 52.72px; height: 40.0px; 
+                left: 0px; top: 0px; 
+                position: absolute; object-fit: cover;}
+.class-64 {width: 188.728271484375px;
+            height: 105px;
+            left: 1179px;
+            top: 958px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-65 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-66 {width: 188.73px; height: 105.0px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: rgba(6, 34, 71, 1.0); 
+                 border-radius: 4.0px;  
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-67 {width: 56.934783935546875px;
+            height: 57px;
+            left: 65px;
+            top: 24px;
+            position: absolute;
+            background: transparent;
+            border: none; border-radius: 5px;}
+.class-68 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-69 {width: 56.934783935546875px;
+            height: 57px;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background: transparent;
+            border: none; border-radius: 5px;}
+.class-70 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-71 {width: 56.934783935546875px;
+            height: 57px;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background: transparent;
+            border: none; border-radius: 5px;}
+.class-72 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-73 {width: 56.93px; height: 17.0px; white-space: normal;  left: 0px; top: 40px; position: absolute; text-align: left; color: #ffffff; font-size: 16.0px; font-family: Open Sans; font-weight: 600; letter-spacing: 0.0px; text-transform: none;}
+.class-74 {width: 50.83px; height: 40.0px; 
+                left: 3px; top: 0px; 
+                position: absolute; object-fit: cover;}
+.class-75 {width: 188.728271484375px;
+            height: 105px;
+            left: 980px;
+            top: 958px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-76 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-77 {width: 188.73px; height: 105.0px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: rgba(6, 34, 71, 1.0); 
+                 border-radius: 4.0px;  
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-78 {width: 62.206520080566406px;
+            height: 57px;
+            left: 63px;
+            top: 24px;
+            position: absolute;
+            background: transparent;
+            border: none; border-radius: 5px;}
+.class-79 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-80 {width: 62.206520080566406px;
+            height: 57px;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background: transparent;
+            border: none; border-radius: 5px;}
+.class-81 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-82 {width: 62.206520080566406px;
+            height: 57px;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background: transparent;
+            border: none; border-radius: 5px;}
+.class-83 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-84 {width: 62.206520080566406px;
+            height: 57px;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background: transparent;
+            border: none; border-radius: 5px;}
+.class-85 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-86 {width: 62.21px; height: 17.0px; white-space: normal;  left: 0px; top: 40px; position: absolute; text-align: left; color: #ffffff; font-size: 16.0px; font-family: Open Sans; font-weight: 600; letter-spacing: 0.0px; text-transform: none;}
+.class-87 {width: 52.72px; height: 40.0px; 
+                left: 4px; top: 0px; 
+                position: absolute; object-fit: cover;}
+.class-88 {width: 891.0px; height: 307.0px; 
+                left: 48px; top: 1091px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                 border-radius: 20.0px; box-shadow: 0.0px 3.0px 4.0px 0px rgba(61, 1, 132, 0.12); 
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-89 {width: 84.0px; height: fit-content; white-space: normal;  left: 73px; top: 1108px; position: absolute; text-align: left; color: #000000; font-size: 16.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-90 {width: 1343.0px; height: 325.0px; 
+                left: 50px; top: 1408px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                 border-radius: 10.0px; box-shadow: 0.0px 4.0px 29.0px 0px rgba(98, 98, 98, 0.25); 
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-91 {width: 147.0px; height: 32.0px; white-space: normal;  left: 75px; top: 1432px; position: absolute; text-align: left; color: #000000; font-size: 4.16px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 1.12px; text-transform: none;}
+.class-92 {width: 1440px; height: 63px; left: 0px; top: 1750px; position: relative; background-color: rgba(0, 93, 170, 1.0)}
+.class-93 {
+                            position: absolute;
+                            left: 1204.3271484375px;
+                            top: 20px;
+                            width: 107.79974365234375px;
+                            height: 24px;
+                        }
+.class-94 {width: 107.79974365234375px;
+            height: 24px;
+            left: 0px;
+            top: 0px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-95 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-96 {width: 23.97px; height: 24.0px; left: 84px; top: 0px; position: absolute}
+.class-97 {width: 23.97px; height: 24.0px; left: 40px; top: 0px; position: absolute}
+.class-98 {width: 23.97px; height: 24.0px; left: 0px; top: 0px; position: absolute}
+.class-99 {color: rgba(255, 255, 255, 1.0); position: absolute; left: 50px; top: 23px; width: 370.6731262207031px; height: 16px; font-size: 12.0px; font-family: Inter; font-weight: 400; text-align: left}
+.class-100 {width: 438.0px; height: 307.0px; 
+                left: 955px; top: 1091px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                 border-radius: 20.0px; box-shadow: 0.0px 4.0px 4.0px 0px rgba(0, 0, 0, 0.25); 
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-101 {width: 388.0px; height: 206.0px; 
+                left: 980px; top: 1165px; 
+                position: absolute; object-fit: cover;}
+.class-102 {width: 105.03px; height: fit-content; white-space: normal;  left: 980px; top: 1113px; position: absolute; text-align: left; color: #000000; font-size: 16.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-103 {width: 78.06px; height: fit-content; white-space: normal;  left: 1255px; top: 1234px; position: absolute; text-align: center; color: #000000; font-size: 18.0px; font-family: Avenir LT Std; font-weight: 750; letter-spacing: 0.0px; text-transform: none;}
+.class-104 {width: 269px;
+            height: 458px;
+            left: 77px;
+            top: 582px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-105 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-106 {width: 269.0px; height: 458.0px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: rgba(217, 217, 217, 1.0); 
+                 border-radius: 8.0px;  
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-107 {width: 244.37px; height: 264.0px; 
+                left: 12px; top: 15px; 
+                position: absolute; object-fit: cover;}
+.class-108 {width: fit-content; height: fit-content; white-space: nowrap;  left: 12px; top: 296px; position: absolute; text-align: left; color: #000000; font-size: 14.0px; font-family: Avenir LT Std; font-weight: 750; letter-spacing: 0.0px; text-transform: none;}
+.class-109 {width: 239.0px; height: fit-content; white-space: normal;  left: 12px; top: 330px; position: absolute; text-align: left; color: #494949; font-size: 14.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-110 {width: 640px;
+            height: 192.74069213867188px;
+            left: 70px;
+            top: 1478px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-111 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-112 {width: 640.0px; height: 192.74px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                 border-radius: 5.0px; box-shadow: 0.0px 7.0px 29.0px 0px rgba(100, 100, 111, 0.2); 
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-113 {width: 122.8px; height: 19.88px; white-space: normal;  left: 329px; top: 143px; position: absolute; text-align: left; color: #005daa; font-size: 12.0px; font-family: Avenir LT Std; font-weight: 750; letter-spacing: 0.0px; text-transform: none;}
+.class-114 {width: 263.69px; height: 28.95px; white-space: normal;  left: 328px; top: 29px; position: absolute; text-align: left; color: #0f1728; font-size: 14.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-115 {width: 295.65px; height: 65.46px; white-space: normal;  left: 328px; top: 68px; position: absolute; text-align: left; color: #667084; font-size: 14.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-116 {width: 270.0px; height: 134.0px; 
+                left: 23px; top: 29px; 
+                position: absolute; object-fit: cover;}
+.class-117 {width: 640px;
+            height: 192.74069213867188px;
+            left: 720px;
+            top: 1475px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-118 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-119 {width: 640.0px; height: 192.74px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                 border-radius: 5.0px; box-shadow: 0.0px 7.0px 29.0px 0px rgba(100, 100, 111, 0.2); 
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-120 {width: 122.8px; height: 19.88px; white-space: normal;  left: 329px; top: 143px; position: absolute; text-align: left; color: #005daa; font-size: 12.0px; font-family: Avenir LT Std; font-weight: 750; letter-spacing: 0.0px; text-transform: none;}
+.class-121 {width: 263.69px; height: 28.95px; white-space: normal;  left: 328px; top: 29px; position: absolute; text-align: left; color: #0f1728; font-size: 14.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-122 {width: 295.65px; height: 65.46px; white-space: normal;  left: 328px; top: 68px; position: absolute; text-align: left; color: #667084; font-size: 14.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-123 {width: 270.0px; height: 134.0px; 
+                left: 23px; top: 29px; 
+                position: absolute; object-fit: cover;}
+.class-124 {width: 388px;
+            height: 88px;
+            left: 980px;
+            top: 569px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-125 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-126 {width: 388.0px; height: 88.0px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                 border-radius: 5.0px; box-shadow: 0.0px 2.0px 2.0px 0px rgba(207, 207, 207, 0.25); 
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-127 {width: 117.71px; height: fit-content; white-space: normal;  left: 88px; top: 17px; position: absolute; text-align: left; color: #000000; font-size: 14.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-128 {width: 156.03533935546875px;
+            height: 36px;
+            left: 88px;
+            top: 39px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-129 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-130 {width: 34.76px; height: fit-content; white-space: normal;  left: 0px; top: 0px; position: absolute; text-align: left; color: #000000; font-size: 14.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-131 {width: 117.61px; height: fit-content; white-space: normal;  left: 38px; top: 0px; position: absolute; text-align: left; color: #000000; font-size: 14.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-132 {width: 56.37px; height: fit-content; white-space: normal;  left: 0px; top: 19px; position: absolute; text-align: left; color: #000000; font-size: 14.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-133 {width: 64.035888671875px;
+            height: 66px;
+            left: 21px;
+            top: 11px;
+            position: absolute;
+            background: transparent;
+            border: none; border-radius: 12px;}
+.class-134 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-135 {width: 64.04px; height: 66.0px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: rgba(0, 93, 170, 1.0); 
+                 border-radius: 12.0px;  
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-136 {width: 29.21px; height: 28.19px; white-space: normal;  left: 19px; top: 11px; position: absolute; text-align: left; color: #ffffff; font-size: 21.0px; font-family: Avenir LT Std; font-weight: 750; letter-spacing: 0.0px; text-transform: none;}
+.class-137 {width: 30.33px; height: 24.81px; white-space: normal;  left: 18px; top: 39px; position: absolute; text-align: left; color: #ffffff; font-size: 16.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-138 {width: 103px; height: 37px; left: 266px; top: 27px; position: absolute; background: rgba(249, 157, 32, 1.0); display: flex; align-items: center; justify-content: center; color: rgba(0, 0, 0, 1.0);; border: none;; border-radius: 3px;; border: none;; font-size: 12.0px;; font-family: Avenir LT Std;; font-weight: 750;; letter-spacing: 0.0px;; line-height: 14.40000057220459px;;}
+.class-139 {width: 388px;
+            height: 88px;
+            left: 980px;
+            top: 673px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-140 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-141 {width: 388.0px; height: 88.0px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                 border-radius: 5.0px; box-shadow: 0.0px 2.0px 2.0px 0px rgba(207, 207, 207, 0.25); 
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-142 {width: 117.71px; height: fit-content; white-space: normal;  left: 88px; top: 17px; position: absolute; text-align: left; color: #000000; font-size: 14.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-143 {width: 156.03533935546875px;
+            height: 36px;
+            left: 88px;
+            top: 39px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-144 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-145 {width: 34.76px; height: fit-content; white-space: normal;  left: 0px; top: 0px; position: absolute; text-align: left; color: #000000; font-size: 14.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-146 {width: 117.61px; height: fit-content; white-space: normal;  left: 38px; top: 0px; position: absolute; text-align: left; color: #000000; font-size: 14.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-147 {width: 56.37px; height: fit-content; white-space: normal;  left: 0px; top: 19px; position: absolute; text-align: left; color: #000000; font-size: 14.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-148 {width: 64.035888671875px;
+            height: 66px;
+            left: 21px;
+            top: 11px;
+            position: absolute;
+            background: transparent;
+            border: none; border-radius: 12px;}
+.class-149 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-150 {width: 64.04px; height: 66.0px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: rgba(0, 93, 170, 1.0); 
+                 border-radius: 12.0px;  
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-151 {width: 29.21px; height: 28.19px; white-space: normal;  left: 19px; top: 11px; position: absolute; text-align: left; color: #ffffff; font-size: 21.0px; font-family: Avenir LT Std; font-weight: 750; letter-spacing: 0.0px; text-transform: none;}
+.class-152 {width: 30.33px; height: 24.81px; white-space: normal;  left: 18px; top: 39px; position: absolute; text-align: left; color: #ffffff; font-size: 16.0px; font-family: Avenir LT Std; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-153 {width: 103px; height: 37px; left: 266px; top: 27px; position: absolute; background: rgba(249, 157, 32, 1.0); display: flex; align-items: center; justify-content: center; color: rgba(0, 0, 0, 1.0);; border: none;; border-radius: 3px;; border: none;; font-size: 12.0px;; font-family: Avenir LT Std;; font-weight: 750;; letter-spacing: 0.0px;; line-height: 14.40000057220459px;;}
+.class-154 {width: 91px; height: 31px; left: 1287px; top: 514px; position: absolute; background: rgba(208, 224, 243, 1.0); display: flex; align-items: center; justify-content: center; color: rgba(61, 1, 132, 1.0);; border: none;; border-radius: 5px;; box-shadow: inset 0px 0px 15px rgba(210, 108, 203, 0.71);; border: 1.0px solid rgba(156, 156, 156, 1.0);; font-size: 12.0px;; font-family: Open Sans;; font-weight: 600;; letter-spacing: 0.0px;; line-height: 16.341796875px;;}
+.class-155 {width: 91px; height: 31px; left: 823px; top: 514px; position: absolute; background: rgba(208, 224, 243, 1.0); display: flex; align-items: center; justify-content: center; color: rgba(61, 1, 132, 1.0);; border: none;; border-radius: 5px;; box-shadow: inset 0px 0px 15px rgba(210, 108, 203, 0.71);; border: 1.0px solid rgba(156, 156, 156, 1.0);; font-size: 12.0px;; font-family: Open Sans;; font-weight: 600;; letter-spacing: 0.0px;; line-height: 16.341796875px;;}
+.class-156 {width: 91px; height: 31px; left: 1287px; top: 800px; position: absolute; background: rgba(208, 224, 243, 1.0); display: flex; align-items: center; justify-content: center; color: rgba(61, 1, 132, 1.0);; border: none;; border-radius: 5px;; box-shadow: inset 0px 0px 15px rgba(210, 108, 203, 0.71);; border: 1.0px solid rgba(156, 156, 156, 1.0);; font-size: 12.0px;; font-family: Open Sans;; font-weight: 600;; letter-spacing: 0.0px;; line-height: 16.341796875px;;}
+.class-157 {width: 835.99951171875px; height: 191.0px; position: absolute; top: 1162.0px; left: 77.0px;}
+.class-158 {width: 100%; border-collapse: collapse;}
+.class-159 {border-bottom: 1px solid rgba(0,0,0,0.1); padding: 12.0px 12.0px 12.0px 12.0px; font-family: Inter; font-size: 14.0px; font-weight: 500; line-height: 16.94318199157715px; text-align: left; background-color: rgba(33, 150, 243, 1.0); color: rgba(255, 255, 255, 1.0);}
+.class-160 {border-bottom: 1px solid rgba(0,0,0,0.1); padding: 12.0px 12.0px 12.0px 12.0px; font-family: Inter; font-size: 14.0px; font-weight: 500; line-height: 16.94318199157715px; text-align: left; background-color: rgba(33, 150, 243, 1.0); color: rgba(255, 255, 255, 1.0);}
+.class-161 {border-bottom: 1px solid rgba(0,0,0,0.1); padding: 12.0px 12.0px 12.0px 12.0px; font-family: Inter; font-size: 14.0px; font-weight: 500; line-height: 16.94318199157715px; text-align: left; background-color: rgba(33, 150, 243, 1.0); color: rgba(255, 255, 255, 1.0);}
+.class-162 {border-bottom: 1px solid rgba(0,0,0,0.1); padding: 12.0px 12.0px 12.0px 12.0px; font-family: Inter; font-size: 14.0px; font-weight: 400; line-height: 16.94318199157715px; text-align: left; background-color: rgba(0, 0, 0, 0.0); color: rgba(0, 0, 0, 1.0);}
+.class-163 {border-bottom: 1px solid rgba(0,0,0,0.1); padding: 12.0px 12.0px 12.0px 12.0px; font-family: Inter; font-size: 14.0px; font-weight: 400; line-height: 16.94318199157715px; text-align: left; background-color: rgba(0, 0, 0, 0.0); color: rgba(0, 0, 0, 1.0);}
+.class-164 {border-bottom: 1px solid rgba(0,0,0,0.1); padding: 12.0px 12.0px 12.0px 12.0px; font-family: Inter; font-size: 14.0px; font-weight: 400; line-height: 16.94318199157715px; text-align: left; background-color: rgba(0, 0, 0, 0.0); color: rgba(0, 0, 0, 1.0);}
+.class-165 {border-bottom: 1px solid rgba(0,0,0,0.1); padding: 12.0px 12.0px 12.0px 12.0px; font-family: Inter; font-size: 14.0px; font-weight: 400; line-height: 16.94318199157715px; text-align: left; background-color: rgba(0, 0, 0, 0.0); color: rgba(0, 0, 0, 1.0);}
+.class-166 {border-bottom: 1px solid rgba(0,0,0,0.1); padding: 12.0px 12.0px 12.0px 12.0px; font-family: Inter; font-size: 14.0px; font-weight: 400; line-height: 16.94318199157715px; text-align: left; background-color: rgba(0, 0, 0, 0.0); color: rgba(0, 0, 0, 1.0);}
+.class-167 {border-bottom: 1px solid rgba(0,0,0,0.1); padding: 12.0px 12.0px 12.0px 12.0px; font-family: Inter; font-size: 14.0px; font-weight: 400; line-height: 16.94318199157715px; text-align: left; background-color: rgba(0, 0, 0, 0.0); color: rgba(0, 0, 0, 1.0);}
+.class-168 {border-bottom: 1px solid rgba(0,0,0,0.1); padding: 12.0px 12.0px 12.0px 12.0px; font-family: Inter; font-size: 14.0px; font-weight: 400; line-height: 16.94318199157715px; text-align: left; background-color: rgba(0, 0, 0, 0.0); color: rgba(0, 0, 0, 1.0);}
+.class-169 {border-bottom: 1px solid rgba(0,0,0,0.1); padding: 12.0px 12.0px 12.0px 12.0px; font-family: Inter; font-size: 14.0px; font-weight: 400; line-height: 16.94318199157715px; text-align: left; background-color: rgba(0, 0, 0, 0.0); color: rgba(0, 0, 0, 1.0);}
+.class-170 {border-bottom: 1px solid rgba(0,0,0,0.1); padding: 12.0px 12.0px 12.0px 12.0px; font-family: Inter; font-size: 14.0px; font-weight: 400; line-height: 16.94318199157715px; text-align: left; background-color: rgba(0, 0, 0, 0.0); color: rgba(0, 0, 0, 1.0);}
+.class-171 {background: linear-gradient(89.58482045498862deg, rgba(1, 44, 87, 1.0) 15.599974989891052%, rgba(0, 169, 136, 1.0) 51.59997344017029%, rgba(1, 93, 170, 1.0) 86.09997630119324%); width: 1440.0px; height: 69.00000762939453px; position: absolute; left: 0px; top: 54px; display: flex; align-items: center; justify-content: space-between; box-shadow: 0 4.0px 4.0px rgba(0, 0, 0, 0.25);}
+.class-172 {color: rgba(255, 255, 255, 1.0); font-size: 24.0px; font-family: Inter; font-weight: 900; letter-spacing: 0.0px; margin-left: 64px}
+.class-173 {display: flex; align-items: center; position: relative;}
+.class-174 {color: rgba(255, 255, 255, 1.0); font-size: 14.0px; font-family: Outfit; font-weight: 700; letter-spacing: 0.0px;; text-decoration: none; margin-right: 100px; position: relative}
+.class-175 {color: rgba(255, 255, 255, 1.0); font-size: 14.0px; font-family: Outfit; font-weight: 700; letter-spacing: 0.0px;; text-decoration: none; margin-right: 100px; position: relative}
+.class-176 {color: rgba(255, 232, 232, 1.0); font-size: 14.0px; font-family: Outfit; font-weight: 700; letter-spacing: 0.0px;; text-decoration: none; margin-right: 100px; position: relative}
+.class-177 {position: relative; width: 343px; height: 45px;}
+.class-178 {position: relative; background: rgba(255, 255, 255, 1.0); color: rgba(161, 161, 161, 1.0);; border-radius: 6px;; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);; border: none;; font-size: 16.0px;; font-family: Inter;; font-weight: 500;; letter-spacing: 0.0px;; line-height: 19.363636016845703px;; appearance: none;; cursor: pointer;; padding: 0 37.89013671875px 0 20px;; width: 100%;; height: 100%;;}
+.class-179 {
+                                position: absolute;
+                                right: 17.10986328125px;
+                                top: 17px;
+                                transform: rotate(3.1415925661670165rad);
+                                pointer-events: none;
+                                width: 15.7802734375px;
+                                height: 13.2694091796875px;
+                                z-index: 1;}
+.class-180 {width: 460px; height: 440px; left: 378px; top: 586px; position: absolute; background: rgba(255, 255, 255, 1.0); border-radius: 26px; box-shadow: 0.0px 4.0px 4.0px rgba(0, 0, 0, 0.25)}
+.class-181 {font-family: Inter; font-weight: 700; font-size: 24.0px; cursor: pointer; padding: 10px; display: flex; align-items: center; justify-content: space-between; width: 100%}
+.class-182 {display: flex; align-items: center;}
+.class-183 {
+                    position: relative;
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 8px;
+                }
+.class-184 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-185 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-186 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-187 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-188 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-189 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-190 {font-family: Inter; font-weight: 500; font-size: 18.0px; padding: 10px; margin: 0}
+.class-191 {font-family: Inter; font-weight: 700; font-size: 24.0px; cursor: pointer; padding: 10px; display: flex; align-items: center; justify-content: space-between; width: 100%}
+.class-192 {display: flex; align-items: center;}
+.class-193 {
+                    position: relative;
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 8px;
+                }
+.class-194 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-195 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-196 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-197 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-198 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-199 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-200 {font-family: Inter; font-weight: 700; font-size: 24.0px; padding: 10px; margin: 0}
