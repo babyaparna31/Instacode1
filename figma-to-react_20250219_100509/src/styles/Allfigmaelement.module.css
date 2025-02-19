@@ -1,0 +1,266 @@
+.class-0 {width: 1440.0px; height: 1434.0px; position: relative; background: rgba(255, 255, 255, 1.0)}
+.class-1 {width: 343px; height: 98px; left: 993px; top: 38px; position: absolute; background: rgba(0, 165, 255, 1.0); outline: none; resize: none; color: rgba(0, 0, 0, 1.0);; border: none;; border-radius: 14px;; border: none;; font-size: 16.0px;; font-family: Inter;; font-weight: 400;; letter-spacing: 0.0px;; line-height: 19.363636016845703px;; font-size: 16.0px;; font-family: Inter;; font-weight: 400;; letter-spacing: 0.0px;; line-height: 19.363636016845703px;;}
+.class-2 {width: 343px; height: 73px; left: 530px; top: 51px; position: absolute; background: rgba(0, 165, 255, 1.0); outline: none; color: rgba(255, 255, 255, 1.0);; border: none;; border-radius: 14px;; border: none;; font-size: 16.0px;; font-family: Inter;; font-weight: 400;; letter-spacing: 0.0px;; line-height: 19.363636016845703px;;}
+.class-3 {width: 343px; height: 73px; left: 68px; top: 51px; position: absolute; background: rgba(0, 165, 255, 1.0); display: flex; align-items: center; justify-content: center; color: rgba(255, 255, 255, 1.0);; border: none;; border-radius: 14px;; border: none;; font-size: 24.0px;; font-family: Inter;; font-weight: 600;; letter-spacing: 0.0px;; line-height: 29.045454025268555px;;}
+.class-4 {position: absolute; width: 343px; height: 73px; left: 81px; top: 223px;}
+.class-5 {position: relative; background: rgba(0, 165, 255, 1.0); color: rgba(255, 255, 255, 1.0);; border: none;; border-radius: 14px;; border: none;; font-size: 24.0px;; font-family: Inter;; font-weight: 600;; letter-spacing: 0.0px;; line-height: 29.045454025268555px;; appearance: none;; cursor: pointer;; padding: 0 63.0009765625px 0 20px;; width: 100%;; height: 100%;;}
+.class-6 {
+                        position: absolute;
+                        right: 36.4049072265625px;
+                        top: 29.154937744140625px;
+                        transform: rotate(3.128714972216655rad);
+                        pointer-events: none;
+                        width: 21.5960693359375px;
+                        height: 19.599273681640625px;
+                        z-index: 1;}
+.class-7 {width: 67px; height: 64px; left: 510px; top: 223px; position: absolute; background: rgba(0, 165, 255, 1.0); outline: none; cursor: pointer; border-radius: 7px; border: 2px solid black; overflow: hidden; display: inline-block; text-align: center; border: none;;}
+.class-8 {width: 72px; height: 72px; left: 654px; top: 219px; position: absolute; appearance: none; -webkit-appearance: none; -moz-appearance: none; background: rgba(9, 132, 233, 1.0); outline: none; cursor: pointer; border-radius: 50%; padding: 0; margin: 0; transition: all 0.2s ease-in-out; &:checked::after { content: ''; display: none; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 47px; height: 47px; background: rgba(242, 249, 255, 1.0); border-radius: 50%;  }; &:checked::after { display: block; }}
+.class-9 {width: 446px;
+            height: 207px;
+            left: 81px;
+            top: 361px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-10 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-11 {width: 446.0px; height: 207.0px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: rgba(105, 230, 255, 1.0); 
+                 border-radius: 16.0px; box-shadow: 0.0px 4.0px 4.0px 0px rgba(0, 0, 0, 0.25); 
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-12 {width: fit-content; height: fit-content; white-space: nowrap;  left: 166px; top: 39px; position: absolute; text-align: left; color: #000000; font-size: 16.0px; font-family: Inter; font-weight: 600; letter-spacing: 0.0px; text-transform: none;}
+.class-13 {width: 270.0px; height: 105.0px; white-space: normal;  left: 167px; top: 62px; position: absolute; text-align: left; color: #000000; font-size: 12.0px; font-family: Inter; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-14 {width: 141.0px; height: 139.0px; 
+                left: 17px; top: 34px; 
+                position: absolute; object-fit: cover;}
+.class-15 {width: 523px;
+            height: 160px;
+            left: 702px;
+            top: 419px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-16 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-17 {width: 523.0px; height: 160.0px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                 border-radius: 17.0px;  
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-18 {width: fit-content; height: fit-content; white-space: nowrap;  left: 89px; top: 24px; position: absolute; text-align: left; color: #000000; font-size: 24.0px; font-family: Inter; font-weight: 600; letter-spacing: 0.0px; text-transform: none;}
+.class-19 {width: 385.0px; height: fit-content; white-space: normal;  left: 89px; top: 56px; position: absolute; text-align: left; color: #000000; font-size: 16.0px; font-family: Inter; font-weight: 400; letter-spacing: 0.0px; text-transform: none;}
+.class-20 {width: 56.0px; height: 56.0px; 
+                left: 18px; top: 24px; 
+                position: absolute; background: rgba(187, 243, 255, 1.0); 
+                 border-radius: 5.0px;  
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-21 {width: 36.0px; height: 26.0px; white-space: normal;  left: 28px; top: 43px; position: absolute; text-align: left; color: #000000; font-size: 32.0px; font-family: Inter; font-weight: 600; letter-spacing: 0.0px; text-transform: none;}
+.class-22 {width: 127px; height: 34px; left: 228px; top: 113px; position: absolute; background: rgba(217, 217, 217, 1.0); display: flex; align-items: center; justify-content: center; color: rgba(0, 0, 0, 1.0);; border: none;; border-radius: 5px;; border: 1.0px solid rgba(0, 0, 0, 1.0);; font-size: 14.0px;; font-family: Inter;; font-weight: 500;; letter-spacing: 0.0px;; line-height: 19.600000381469727px;;}
+.class-23 {width: 127px; height: 34px; left: 367px; top: 113px; position: absolute; background: rgba(9, 132, 233, 1.0); display: flex; align-items: center; justify-content: center; color: rgba(255, 255, 255, 1.0);; border: none;; border-radius: 5px;; border: none;; font-size: 14.0px;; font-family: Inter;; font-weight: 500;; letter-spacing: 0.0px;; line-height: 19.600000381469727px;;}
+.class-24 {width: 19px;
+            height: 19px;
+            left: 491px;
+            top: 14px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-25 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-26 {position: absolute; left: 0px; top: 0px; width: 19.0px; height: 19.0px; background-color: rgba(217, 217, 217, 1.0); border-radius: 50%}
+.class-27 {width: 10.0px; height: 10.0px; left: 5px; top: 5px; position: absolute}
+.class-28 {width: 460px; height: 440px; left: 67px; top: 667px; position: absolute; background: rgba(255, 255, 255, 1.0); border-radius: 26px; box-shadow: 0.0px 4.0px 4.0px rgba(0, 0, 0, 0.25)}
+.class-29 {font-family: Inter; font-weight: 700; font-size: 24.0px; cursor: pointer; padding: 10px; display: flex; align-items: center; justify-content: space-between; width: 100%}
+.class-30 {display: flex; align-items: center;}
+.class-31 {
+                    position: relative;
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 8px;
+                }
+.class-32 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-33 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-34 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-35 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-36 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-37 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-38 {font-family: Inter; font-weight: 500; font-size: 18.0px; padding: 10px; margin: 0}
+.class-39 {font-family: Inter; font-weight: 700; font-size: 24.0px; cursor: pointer; padding: 10px; display: flex; align-items: center; justify-content: space-between; width: 100%}
+.class-40 {display: flex; align-items: center;}
+.class-41 {
+                    position: relative;
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    margin-right: 8px;
+                }
+.class-42 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-43 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-44 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-45 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-46 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-47 {
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        width: 100%;
+                        height: 100%;
+                    }
+.class-48 {font-family: Inter; font-weight: 700; font-size: 24.0px; padding: 10px; margin: 0}
+.class-49 {
+                width: 453px;
+                height: 53px;
+                display: flex;
+                align-items: center;
+            }
+.class-50 {width: 151px; height: 53px; position: absolute; left: 720px; top: 745px; background: rgba(255, 255, 255, 1.0); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+.class-51 {color: rgba(0, 0, 0, 1.0); font-size: 16.0px; font-family: Rubik; font-weight: 400; text-align: left}
+.class-52 {
+                            position: absolute;
+                            bottom: 0;
+                            left: 0;
+                            width: 147px;
+                            height: 5px;
+                            background: rgba(222, 72, 72, 1.0);
+                            border-radius: 5px;
+                        }
+.class-53 {width: 151px; height: 53px; position: absolute; left: 871px; top: 745px; background: rgba(255, 255, 255, 1.0); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+.class-54 {color: rgba(0, 0, 0, 1.0); font-size: 16.0px; font-family: Rubik; font-weight: 400; text-align: left}
+.class-55 {width: 151px; height: 53px; position: absolute; left: 1022px; top: 745px; background: rgba(255, 255, 255, 1.0); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);}
+.class-56 {color: rgba(0, 0, 0, 1.0); font-size: 16.0px; font-family: Rubik; font-weight: 400; text-align: left}
+.class-57 {width: 436px;
+            height: 32px;
+            left: 730px;
+            top: 927px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-58 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-59 {width: 436.0px; height: 32.0px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: rgba(255, 255, 255, 1.0); 
+                 border-radius: 47.0px; box-shadow: 0.0px 4.0px 4.0px 0px rgba(0, 0, 0, 0.25); 
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-60 {width: 180.24px; height: 32.0px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: rgba(9, 132, 233, 1.0); 
+                 border-radius: 51.0px;  
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-61 {width: 206px;
+            height: 52.36474609375px;
+            left: 1011px;
+            top: 256px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-62 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-63 {width: 206.0px; height: 41.0px; 
+                left: 0px; top: 0px; 
+                position: absolute; background: rgba(9, 132, 233, 1.0); 
+                 border-radius: 6.0px;  
+                transform: rotate(0.0deg); transform-origin: 0 0;}
+.class-64 {position: absolute; left: 89px; top: 35px; width: 34.18088125064969px; height: 17.36471114307642px; transform: rotate(-3.130836739919905rad);}
+.class-65 {width: fit-content; height: fit-content; white-space: nowrap;  left: 79px; top: 16px; position: absolute; text-align: left; color: #ffffff; font-size: 14.0px; font-family: Inter; font-weight: 600; letter-spacing: 0.0px; text-transform: none;}
+.class-66 {width: 313px;
+            height: 313px;
+            left: 837px;
+            top: 1054px;
+            position: absolute;
+            background: transparent;
+            border: none;}
+.class-67 {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 2;
+                }
+.class-68 {position: absolute; left: 0px; top: 0px; width: 313.0px; height: 313.0px; border-radius: 50%}
