@@ -1,0 +1,165 @@
+import { React } from 'react';
+import styles from '../styles/Containers.module.css';
+import a_ee43e353d9cca9f0fb46d00a5c0bed7b922e9976_jpg from '../assets/a_ee43e353d9cca9f0fb46d00a5c0bed7b922e9976.jpg';
+
+const Containers: React.FC = () => {
+    
+    return (
+        <>
+            
+<div className={(styles['class-0']) + " class=containers"} figma_id="0:3">
+<div className={(styles['class-1']) + " class=Rectangle398949"} figma_id="0:4">
+</div>
+<footer className={(styles['class-2']) + " class=Footer_footer"} figma_id="0:5">
+<div className={(styles['class-3'])}>
+<div className={(styles['class-4']) + " class=Group1"} figma_id="0:8">
+<div className={(styles['class-5'])}>
+<div className={(styles['class-6']) + " class=ic:baseline-facebook"} figma_id="0:9">
+<div className={(styles['class-7'])}>
+<div className={(styles['class-8']) + " class=Vector"} figma_id="0:10">
+<svg fill="none" height="20" viewbox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M20 10C20 4.48 15.52 0 10 0C4.48 0 0 4.48 0 10C0 14.84 3.44 18.87 8 19.8V13H6V10H8V7.5C8 5.57 9.57 4 11.5 4H14V7H12C11.45 7 11 7.45 11 8V10H14V13H11V19.95C16.05 19.45 20 15.19 20 10Z" fill="#1E1E1E"></path>
+</svg>
+</div>
+</div>
+</div>
+<div className={(styles['class-9']) + " class=ph:instagram-logo-fill"} figma_id="0:11">
+<div className={(styles['class-10'])}>
+<div className={(styles['class-11']) + " class=Vector"} figma_id="0:12">
+<svg fill="none" height="19" viewbox="0 0 19 19" width="19" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.54 9.5C12.54 10.1013 12.3617 10.689 12.0277 11.1889C11.6936 11.6889 11.2188 12.0785 10.6634 12.3086C10.1079 12.5387 9.49663 12.5989 8.90693 12.4816C8.31722 12.3643 7.77555 12.0748 7.35039 11.6496C6.92524 11.2245 6.63571 10.6828 6.51841 10.0931C6.40111 9.50337 6.46132 8.89213 6.69141 8.33664C6.9215 7.78115 7.31114 7.30637 7.81107 6.97233C8.31099 6.63829 8.89875 6.46 9.5 6.46C10.3055 6.46251 11.0773 6.78359 11.6468 7.35316C12.2164 7.92273 12.5375 8.69451 12.54 9.5ZM19 5.32V13.68C19 15.091 18.4395 16.4441 17.4418 17.4418C16.4441 18.4395 15.091 19 13.68 19H5.32C3.90905 19 2.55589 18.4395 1.55819 17.4418C0.560498 16.4441 0 15.091 0 13.68V5.32C0 3.90905 0.560498 2.55589 1.55819 1.55819C2.55589 0.560498 3.90905 0 5.32 0H13.68C15.091 0 16.4441 0.560498 17.4418 1.55819C18.4395 2.55589 19 3.90905 19 5.32ZM14.06 9.5C14.06 8.59812 13.7926 7.71649 13.2915 6.9666C12.7904 6.21671 12.0783 5.63225 11.245 5.28711C10.4118 4.94197 9.49494 4.85167 8.61039 5.02762C7.72583 5.20357 6.91332 5.63787 6.27559 6.27559C5.63787 6.91332 5.20357 7.72583 5.02762 8.61039C4.85167 9.49494 4.94197 10.4118 5.28711 11.245C5.63225 12.0783 6.21671 12.7904 6.9666 13.2915C7.71649 13.7926 8.59812 14.06 9.5 14.06C10.7094 14.06 11.8692 13.5796 12.7244 12.7244C13.5796 11.8692 14.06 10.7094 14.06 9.5ZM15.58 4.56C15.58 4.33453 15.5131 4.11412 15.3879 3.92665C15.2626 3.73918 15.0846 3.59306 14.8763 3.50678C14.668 3.42049 14.4387 3.39792 14.2176 3.4419C13.9965 3.48589 13.7933 3.59447 13.6339 3.7539C13.4745 3.91333 13.3659 4.11646 13.3219 4.3376C13.2779 4.55873 13.3005 4.78795 13.3868 4.99626C13.4731 5.20457 13.6192 5.38261 13.8067 5.50788C13.9941 5.63314 14.2145 5.7 14.44 5.7C14.7423 5.7 15.0323 5.57989 15.2461 5.3661C15.4599 5.15231 15.58 4.86235 15.58 4.56Z" fill="#51A484"></path>
+</svg>
+</div>
+<div className={(styles['class-12']) + " class=Vector"} figma_id="0:13">
+<svg fill="none" height="19" viewbox="0 0 19 19" width="19" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.54 9.5C12.54 10.1013 12.3617 10.689 12.0277 11.1889C11.6936 11.6889 11.2188 12.0785 10.6634 12.3086C10.1079 12.5387 9.49663 12.5989 8.90693 12.4816C8.31722 12.3643 7.77555 12.0748 7.35039 11.6496C6.92524 11.2245 6.63571 10.6828 6.51841 10.0931C6.40111 9.50337 6.46132 8.89213 6.69141 8.33664C6.9215 7.78115 7.31114 7.30637 7.81107 6.97233C8.31099 6.63829 8.89875 6.46 9.5 6.46C10.3055 6.46251 11.0773 6.78359 11.6468 7.35316C12.2164 7.92273 12.5375 8.69451 12.54 9.5ZM19 5.32V13.68C19 15.091 18.4395 16.4441 17.4418 17.4418C16.4441 18.4395 15.091 19 13.68 19H5.32C3.90905 19 2.55589 18.4395 1.55819 17.4418C0.560498 16.4441 0 15.091 0 13.68V5.32C0 3.90905 0.560498 2.55589 1.55819 1.55819C2.55589 0.560498 3.90905 0 5.32 0H13.68C15.091 0 16.4441 0.560498 17.4418 1.55819C18.4395 2.55589 19 3.90905 19 5.32ZM14.06 9.5C14.06 8.59812 13.7926 7.71649 13.2915 6.9666C12.7904 6.21671 12.0783 5.63225 11.245 5.28711C10.4118 4.94197 9.49494 4.85167 8.61039 5.02762C7.72583 5.20357 6.91332 5.63787 6.27559 6.27559C5.63787 6.91332 5.20357 7.72583 5.02762 8.61039C4.85167 9.49494 4.94197 10.4118 5.28711 11.245C5.63225 12.0783 6.21671 12.7904 6.9666 13.2915C7.71649 13.7926 8.59812 14.06 9.5 14.06C10.7094 14.06 11.8692 13.5796 12.7244 12.7244C13.5796 11.8692 14.06 10.7094 14.06 9.5ZM15.58 4.56C15.58 4.33453 15.5131 4.11412 15.3879 3.92665C15.2626 3.73918 15.0846 3.59306 14.8763 3.50678C14.668 3.42049 14.4387 3.39792 14.2176 3.4419C13.9965 3.48589 13.7933 3.59447 13.6339 3.7539C13.4745 3.91333 13.3659 4.11646 13.3219 4.3376C13.2779 4.55873 13.3005 4.78795 13.3868 4.99626C13.4731 5.20457 13.6192 5.38261 13.8067 5.50788C13.9941 5.63314 14.2145 5.7 14.44 5.7C14.7423 5.7 15.0323 5.57989 15.2461 5.3661C15.4599 5.15231 15.58 4.86235 15.58 4.56Z" fill="#1E1E1E"></path>
+</svg>
+</div>
+</div>
+</div>
+<div className={(styles['class-13']) + " class=entypo-social:linkedin-with-circle"} figma_id="0:14">
+<div className={(styles['class-14'])}>
+<div className={(styles['class-15']) + " class=Vector"} figma_id="0:15">
+<svg fill="none" height="20" viewbox="0 0 20 20" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M10 0C4.47708 0 0 4.47708 0 10C0 15.5229 4.47708 20 10 20C15.5229 20 20 15.5229 20 10C20 4.47708 15.5229 0 10 0ZM7.55208 14.1448H5.52708V7.62812H7.55208V14.1448ZM6.52708 6.82812C5.8875 6.82812 5.47396 6.375 5.47396 5.81458C5.47396 5.24271 5.9 4.80312 6.55312 4.80312C7.20625 4.80312 7.60625 5.24271 7.61875 5.81458C7.61875 6.375 7.20625 6.82812 6.52708 6.82812ZM14.9479 14.1448H12.9229V10.5333C12.9229 9.6927 12.6292 9.12187 11.8969 9.12187C11.3375 9.12187 11.0052 9.50833 10.8583 9.8802C10.8042 10.0125 10.7906 10.2 10.7906 10.3865V14.1437H8.76458V9.70625C8.76458 8.89271 8.73854 8.2125 8.71145 7.62708H10.4708L10.5635 8.53229H10.6042C10.8708 8.10729 11.524 7.4802 12.6167 7.4802C13.949 7.4802 14.9479 8.37291 14.9479 10.2917V14.1448Z" fill="#1E1E1E"></path>
+</svg>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div className={(styles['class-16'])}>Non Copyrighted © 2022 Design and upload by  promptora solution</div><div className={(styles['class-17'])}>Lorem ipsum dolor sit amet consectetur. Mi nibh venenatis in suscipit turpis enim cursus.</div><div className={(styles['class-18'])}>Website Links</div><div className={(styles['class-19'])}>Languages</div><div className={(styles['class-20'])}>Home</div><div className={(styles['class-21'])}>English</div><div className={(styles['class-22'])}>Arabic</div><div className={(styles['class-23'])}>Get in touch</div><div className={(styles['class-24'])}>French</div><div className={(styles['class-25'])}>FAQs</div><div className={(styles['class-26'])}>Promptora</div>
+</footer>
+<header className={(styles['class-27']) + " class=Header_header"} figma_id="16:14">
+<div className={(styles['class-28']) + " class=logo"}>Promptora</div>
+<nav className={(styles['class-29']) + " class=nav-items"}>
+<a className={(styles['class-30']) + " class=nav-item"} href="#">
+                    Home
+                    <div className={(styles['class-31']) + " class=active-indicator"}></div>
+</a>
+<a className={(styles['class-32']) + " class=nav-item"} href="#">
+                    About US
+                    
+                </a>
+<a className={(styles['class-33']) + " class=nav-item"} href="#">
+                    Services
+                    
+                </a>
+</nav>
+<div className={(styles['class-34'])}><button className={(styles['class-35']) + " class=btnlogin"} figma_id="0:40">Login</button></div>
+</header><div className={(styles['class-36']) + " class=Table1"} figma_id="16:17">
+<table className={(styles['class-37'])}>
+<thead>
+<tr>
+<th className={(styles['class-38'])}>Table Header</th>
+<th className={(styles['class-39'])}>Table Header</th>
+</tr><tr>
+<td className={(styles['class-40'])}>Table Body</td>
+<td className={(styles['class-41'])}>Table Body</td>
+</tr>
+<tr>
+<td className={(styles['class-42'])}>Table Body</td>
+<td className={(styles['class-43'])}>Table Body</td>
+</tr>
+</thead></table>
+</div><div className={(styles['class-44']) + " class=Table2-table"} figma_id="29:2">
+<table className={(styles['class-45'])}>
+<thead>
+<tr>
+<th className={(styles['class-46'])}>Table Header</th>
+<th className={(styles['class-47'])}>Table Header</th>
+<th className={(styles['class-48'])}>Table Header</th>
+</tr><tr>
+<td className={(styles['class-49'])}>Table Body</td>
+<td className={(styles['class-50'])}>Table Body</td>
+<td className={(styles['class-51'])}>Table Body</td>
+</tr>
+<tr>
+<td className={(styles['class-52'])}>Table Body</td>
+<td className={(styles['class-53'])}>Table Body</td>
+<td className={(styles['class-54'])}>Table Body</td>
+</tr>
+<tr>
+<td className={(styles['class-55'])}>Table Body</td>
+<td className={(styles['class-56'])}>Table Body</td>
+<td className={(styles['class-57'])}>Table Body</td>
+</tr>
+</thead></table>
+</div><div className={(styles['class-58']) + " class=Table3_table"} figma_id="40:2">
+<table className={(styles['class-59'])}>
+<thead>
+<tr>
+<th className={(styles['class-60'])}>Table Header</th>
+<th className={(styles['class-61'])}>Table Header</th>
+<th className={(styles['class-62'])}>Table Header</th>
+</tr><tr>
+<td className={(styles['class-63'])}>Table Body</td>
+<td className={(styles['class-64'])}>Table Body</td>
+<td className={(styles['class-65'])}>Table Body</td>
+</tr>
+<tr>
+<td className={(styles['class-66'])}>Table Body</td>
+<td className={(styles['class-67'])}>Table Body</td>
+<td className={(styles['class-68'])}>Table Body</td>
+</tr>
+<tr>
+<td className={(styles['class-69'])}>Table Body</td>
+<td className={(styles['class-70'])}>Table Body</td>
+<td className={(styles['class-71'])}>Table Body</td>
+</tr>
+</thead></table>
+</div>
+<nav className={(styles['class-72']) + " class=Logout_btn"} figma_id="44:2">
+<div className={(styles['class-73']) + " class=logo"}><span className={(styles['class-74']) + " class=text-container"}>Promptora</span></div>
+<div className={(styles['class-75']) + " class=nav-items"}>
+<button className={(styles['class-76']) + " class=dashboard_btn"}><span className={(styles['class-77']) + " class=svg-container"}><span className={(styles['class-78'])}><svg fill="none" height="26" viewbox="0 0 24 26" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.22518 24.4053V20.4303C8.22518 19.4155 9.01536 18.593 9.9901 18.593H13.5532C14.0213 18.593 14.4702 18.7865 14.8012 19.1311C15.1322 19.4756 15.3182 19.943 15.3182 20.4303V24.4053C15.3152 24.8271 15.4741 25.2328 15.7596 25.5322C16.0451 25.8316 16.4336 25.9999 16.8389 25.9999H19.2698C20.4051 26.003 21.495 25.5356 22.2988 24.701C23.1027 23.8663 23.5544 22.733 23.5544 21.5511V10.2269C23.5544 9.27218 23.1479 8.36658 22.4444 7.75405L14.1748 0.878628C12.7363 -0.326869 10.6753 -0.287947 9.27969 0.97107L1.19881 7.75405C0.462089 8.34852 0.0217597 9.25681 0 10.2269V21.5396C0 24.003 1.9183 25.9999 4.28464 25.9999H6.66007C7.50175 25.9999 8.18578 25.293 8.19188 24.4168L8.22518 24.4053Z" fill="#5D7285"></path>
+</svg></span></span><span className={(styles['class-79']) + " class=text-container"}>Dashboard</span></button><button className={(styles['class-80']) + " class=logout_btn"}><span className={(styles['class-81']) + " class=svg-container"}><span className={(styles['class-82'])}><svg fill="none" height="25" viewbox="0 0 26 25" width="26" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.8659 0C14.9691 0 17.5 2.48751 17.5 5.55001V11.5375H9.86921C9.32233 11.5375 8.88992 11.9625 8.88992 12.5C8.88992 13.025 9.32233 13.4625 9.86921 13.4625H17.5V19.4375C17.5 22.5001 14.9691 25.0001 11.8405 25.0001H5.64681C2.53089 25.0001 0 22.5126 0 19.45V5.56251C0 2.48751 2.54361 0 5.65953 0H11.8659ZM20.6753 8.18777C21.0503 7.80027 21.6628 7.80027 22.0378 8.17527L25.6878 11.8128C25.8753 12.0003 25.9753 12.2378 25.9753 12.5003C25.9753 12.7503 25.8753 13.0003 25.6878 13.1753L22.0378 16.8128C21.8503 17.0003 21.6003 17.1003 21.3628 17.1003C21.1128 17.1003 20.8628 17.0003 20.6753 16.8128C20.3003 16.4378 20.3003 15.8253 20.6753 15.4503L22.6753 13.4628H17.5003V11.5378H22.6753L20.6753 9.55027C20.3003 9.17527 20.3003 8.56277 20.6753 8.18777Z" fill="white"></path>
+</svg></span></span><span className={(styles['class-83']) + " class=text-container"}>Logout</span></button>
+</div>
+</nav>
+<div className={(styles['class-84']) + " class=Avatar_avatar"} figma_id="106:10">
+<img alt="Avatar_avatar" className={(styles['class-85']) + " class=Avatar_avatar"} figma_id="106:10" src={a_ee43e353d9cca9f0fb46d00a5c0bed7b922e9976_jpg}/>
+</div>
+<a aria-label="Download on App Store" className={(styles['class-86']) + " class=badge_badge"} figma_id="106:13" href="#" role="link">
+<span className={(styles['class-87']) + " class=svg-container"}>
+<span className={(styles['class-88'])}>
+<svg fill="none" height="17" viewbox="0 0 18 17" width="18" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.0341 6.42891C15.045 5.58089 15.2702 4.74942 15.6888 4.01185C16.1075 3.27429 16.7058 2.65459 17.4283 2.21042C16.9694 1.55494 16.3639 1.0155 15.66 0.634958C14.956 0.254414 14.1731 0.043244 13.3733 0.0182203C11.6672 -0.16086 10.0132 1.03913 9.1438 1.03913C8.25758 1.03913 6.919 0.0360002 5.47757 0.0656573C4.54521 0.0957797 3.63656 0.366902 2.84014 0.852609C2.04372 1.33832 1.3867 2.02204 0.933086 2.83717C-1.03186 6.23916 0.433813 11.2389 2.31606 13.9889C3.25779 15.3354 4.3584 16.8395 5.79853 16.7862C7.20778 16.7278 7.73411 15.8876 9.4352 15.8876C11.1205 15.8876 11.6143 16.7862 13.0837 16.7523C14.5958 16.7277 15.5486 15.3998 16.4573 14.0404C17.1339 13.081 17.6546 12.0206 18 10.8985C17.1215 10.5269 16.3717 9.90491 15.8443 9.1101C15.3169 8.31528 15.0351 7.3828 15.0341 6.42891Z" fill="white"></path>
+</svg>
+</span>
+<span className={(styles['class-89'])}>
+<svg fill="none" height="6" viewbox="0 0 5 6" width="5" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.71009 3.989C4.63748 2.87569 5.09437 1.44473 4.98373 0C3.56688 0.148813 2.25811 0.825975 1.31819 1.89656C0.85863 2.41957 0.506659 3.02803 0.282394 3.68714C0.05813 4.34626 -0.0340291 5.04312 0.0111844 5.73788C0.719865 5.74517 1.42096 5.59157 2.06167 5.28863C2.70238 4.9857 3.26601 4.54133 3.71009 3.989Z" fill="white"></path>
+</svg>
+</span></span>
+<span className={(styles['class-90'])}>Download on</span><span className={(styles['class-91'])}>App Store</span>
+</a>
+</div>
+
+        </>
+    );
+};
+
+export default Containers;
