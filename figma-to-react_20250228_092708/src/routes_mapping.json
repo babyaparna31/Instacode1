@@ -1,0 +1,12 @@
+[
+  {
+    "component_name": "Home",
+    "route": "/home",
+    "routing_config": {}
+  },
+  {
+    "component_name": "Hr",
+    "route": "/hr",
+    "routing_config": {}
+  }
+]
