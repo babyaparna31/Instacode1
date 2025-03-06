@@ -242,3 +242,6 @@ figma-to-react_20250304_070007/.env
 figma-to-react_20250304_070007/build/
 figma-to-react_20250304_070007/node_modules/
 node_modules/
+starter-master/.env
+starter-master/build/
+starter-master/node_modules/
