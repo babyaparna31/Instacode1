@@ -1,26 +1,24 @@
 <div class="customercamspecs">
-  <div class="navigation-container">
-    <div class="Group6286">
-      <div class="navigation-content">
-        <mat-icon class="vector-icon">chevron_right</mat-icon>
-        <div class="Customer">Customer</div>
-        <mat-icon class="vector-icon">chevron_right</mat-icon>
-        <div class="CustomerSetup highlight">Customer Setup</div>
-        <div class="Group6285">
-          <div class="Rectangle6">
-            <mat-icon class="home-icon">home</mat-icon>
-          </div>
+  <div class="navigation-breadcrumb">
+    <div class="breadcrumb-container">
+      <div class="home-icon">
+        <div class="rectangle">
+          <mat-icon>home</mat-icon>
         </div>
       </div>
+      <div class="customer">Customer</div>
+      <mat-icon class="chevron-icon">chevron_right</mat-icon>
+      <div class="customer-setup">Customer Setup</div>
+      <mat-icon class="chevron-icon">chevron_right</mat-icon>
     </div>
   </div>
 
-  <div class="CustomerSetup-title">Customer Setup</div>
+  <div class="page-title">Customer Setup</div>
   
-  <div class="tab-navigation">
-    <div class="Information">Information</div>
-    <button mat-button class="cam-specs-button">CAM Specs</button>
-    <div class="Settings">Settings</div>
+  <div class="tabs-container">
+    <div class="tab">Information</div>
+    <button mat-button class="tab active">CAM Specs</button>
+    <div class="tab">Settings</div>
   </div>
   
   <button mat-raised-button class="save-button">
@@ -29,16 +27,16 @@
   </button>
   
   <div class="language-selector">
-    <div class="fr">FR</div>
+    <div class="language-option">FR</div>
     <div class="divider"></div>
-    <div class="en">EN</div>
+    <div class="language-option">EN</div>
   </div>
-
+  
   <mat-card class="main-content-card">
-    <mat-card-title class="card-title">Customer Asset Management</mat-card-title>
+    <div class="card-title">Customer Asset Management</div>
     
-    <div class="content-container">
-      <mat-form-field appearance="fill" class="dropdown-container">
+    <div class="form-container">
+      <mat-form-field appearance="fill" class="dropdown-field">
         <mat-select placeholder="DEFAULT">
           <mat-option value="">DEFAULT</mat-option>
           <mat-option value="option1">Option 1</mat-option>
@@ -47,21 +45,20 @@
         </mat-select>
       </mat-form-field>
       
-      <div class="repair-limits-section">
-        <div class="repair-limits-label">Repair Limits</div>
+      <div class="radio-group-container">
+        <div class="radio-label">Repair Limits</div>
         <mat-radio-group>
-          <mat-radio-button [checked]="true" value="lifetime" class="lifetime-radio">Lifetime</mat-radio-button>
-          <mat-radio-button value="perRetread" class="per-retread-radio">Per Retread</mat-radio-button>
+          <mat-radio-button [checked]="true" value="lifetime">Lifetime</mat-radio-button>
+          <mat-radio-button value="perRetread">Per Retread</mat-radio-button>
         </mat-radio-group>
       </div>
       
-      <div class="button-group">
-        <button mat-raised-button class="view-cam-spec-button">
+      <div class="action-buttons">
+        <button mat-raised-button class="view-button">
           <mat-icon>visibility</mat-icon>
           View CAM Spec
         </button>
-        
-        <button mat-raised-button class="export-cam-spec-button">
+        <button mat-raised-button class="export-button">
           <mat-icon>file_download</mat-icon>
           Export CAM Spec
         </button>
@@ -69,12 +66,11 @@
       
       <div class="info-message">
         <mat-icon class="info-icon">info</mat-icon>
-        <span>Clicking on View CAM Spec button will redirect you to CAM Spec menu, you will leave this page.</span>
+        Clicking on View CAM Spec button will redirect you to CAM Spec menu, you will leave this page.
       </div>
       
-      <div class="mandatory-indicators">
-        <div class="mandatory-indicator first">*</div>
-        <div class="mandatory-indicator second">*</div>
+      <div class="mandatory-note">
+        <span class="mandatory-asterisk">*</span>
       </div>
     </div>
   </mat-card>

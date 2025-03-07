@@ -1,36 +1,36 @@
 <div class="customer">
-  <div class="navigation-path">
-    <div class="home-icon">
-      <div class="rectangle">
-        <mat-icon>home</mat-icon>
+  <div class="navigation-breadcrumb">
+    <div class="breadcrumb-container">
+      <div class="home-icon">
+        <div class="rectangle">
+          <mat-icon>home</mat-icon>
+        </div>
       </div>
-    </div>
-    <div class="path">
-      <span class="path-item">Customer</span>
-      <mat-icon class="chevron">chevron_right</mat-icon>
-      <span class="path-item active">Customer Setup</span>
+      <div class="breadcrumb-item">Customer</div>
+      <mat-icon class="breadcrumb-arrow">chevron_right</mat-icon>
+      <div class="breadcrumb-item active">Customer Setup</div>
     </div>
   </div>
 
-  <h1 class="page-title">Customer Setup</h1>
+  <div class="page-title">Customer Setup</div>
 
   <div class="tab-navigation">
-    <button mat-flat-button class="tab-button active">Information</button>
+    <button mat-button class="tab-button active">Information</button>
     <button mat-button class="tab-button">CAM Specs</button>
     <button mat-button class="tab-button">Settings</button>
   </div>
 
   <mat-card class="content-card">
-    <h2 class="section-title">Information</h2>
-
-    <div class="section-divider"></div>
+    <div class="section-title">Information</div>
 
     <div class="section-header">
       <div class="section-icon">
-        <mat-icon>folder</mat-icon>
+        <mat-icon svgIcon="folder"></mat-icon>
       </div>
-      <h3 class="section-subtitle">Generic Information</h3>
+      <div class="section-label">Generic Information</div>
     </div>
+
+    <mat-divider></mat-divider>
 
     <div class="form-row">
       <div class="form-field">
@@ -60,7 +60,7 @@
       </div>
     </div>
 
-    <div class="toggle-row">
+    <div class="form-row toggle-row">
       <div class="toggle-field">
         <div class="Label">Active<span class="mandatory">*</span></div>
         <mat-slide-toggle color="primary" checked></mat-slide-toggle>
@@ -77,13 +77,13 @@
       </div>
     </div>
 
-    <div class="section-divider"></div>
+    <mat-divider></mat-divider>
 
     <div class="section-header">
       <div class="section-icon">
-        <mat-icon>folder</mat-icon>
+        <mat-icon svgIcon="folder"></mat-icon>
       </div>
-      <h3 class="section-subtitle">Geographic Information</h3>
+      <div class="section-label">Geographic Information</div>
     </div>
 
     <div class="form-row">
@@ -137,13 +137,13 @@
       </div>
     </div>
 
-    <div class="section-divider"></div>
+    <mat-divider></mat-divider>
 
     <div class="section-header">
       <div class="section-icon">
-        <mat-icon>folder</mat-icon>
+        <mat-icon svgIcon="folder"></mat-icon>
       </div>
-      <h3 class="section-subtitle">Geographic Information</h3>
+      <div class="section-label">Geographic Information</div>
     </div>
 
     <div class="form-row">
@@ -199,11 +199,9 @@
       </div>
     </div>
 
-    <div class="footer">
-      <div class="update-info">
-        <span>Last updated: CCYY/MM/DD at 08:00 EST by BTN UserID</span>
-        <span>Created: CCYY/MM/DD at 14:00 EST by BTNUserID</span>
-      </div>
+    <div class="footer-info">
+      <div class="last-updated">Last updated: CCYY/MM/DD at 08:00 EST by BTN UserID</div>
+      <div class="created">Created: CCYY/MM/DD at 14:00 EST by BTNUserID</div>
     </div>
   </mat-card>
 
