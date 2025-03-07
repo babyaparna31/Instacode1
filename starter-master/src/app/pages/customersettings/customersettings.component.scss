@@ -1,0 +1,262 @@
+/* General Styles */
+:host {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.customer-settings {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Breadcrumb Styles */
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.home-icon {
+  position: relative;
+  width: 31px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.rectangle {
+  width: 31px;
+  height: 16px;
+  background-color: #27509B;
+  border-radius: 3px;
+  position: absolute;
+}
+
+mat-icon {
+  color: white;
+  font-size: 16px;
+  position: relative;
+  z-index: 2;
+}
+
+.customer {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0 5px;
+}
+
+.arrow {
+  color: #27509B;
+  font-size: 14px;
+  transform: rotate(0deg);
+}
+
+.customer-setup {
+  font-size: 14px;
+  font-weight: 700;
+  color: #27509B;
+  margin-left: 5px;
+}
+
+/* Page Title */
+.page-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Tab Navigation */
+.tab-navigation {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tab-navigation button {
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.active-tab {
+  background-color: #D4E7FA;
+}
+
+/* Save Button */
+.save-button {
+  position: absolute;
+  top: 70px;
+  right: 20px;
+  background-color: #27509B;
+  color: white;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0 20px;
+  height: 48px;
+}
+
+.save-button mat-icon {
+  margin-right: 10px;
+}
+
+/* Language Selector */
+.language-selector {
+  position: absolute;
+  top: 28px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.language-option {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  margin: 0 5px;
+}
+
+.divider {
+  width: 1px;
+  height: 25px;
+  background-color: white;
+  margin: 0 5px;
+}
+
+/* Main Content */
+.main-content {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+/* Section Styles */
+.section {
+  margin-bottom: 30px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.section-header mat-icon {
+  color: black;
+  margin-right: 10px;
+}
+
+.section-header h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+}
+
+/* Form Styles */
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-right: 30px;
+  margin-bottom: 20px;
+  min-width: 250px;
+}
+
+.Label {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+mat-form-field {
+  width: 328px;
+}
+
+.small-field {
+  width: 123px;
+}
+
+.medium-field {
+  width: 170px;
+}
+
+.mandatory {
+  color: #B71C1C;
+}
+
+/* Toggle Styles */
+.toggle-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.toggle-container span {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+/* Turnaround Time Container */
+.turnaround-time-container {
+  display: flex;
+  align-items: center;
+}
+
+.min-field {
+  width: 123px;
+  margin-right: 10px;
+}
+
+.max-field {
+  width: 167px;
+  margin-right: 10px;
+}
+
+.field-value {
+  font-size: 14px;
+  font-weight: 500;
+  color: #3B3B3B;
+}
+
+/* Notes Section */
+.notes-label {
+  display: flex;
+  align-items: center;
+}
+
+.notes-label mat-icon {
+  font-size: 16px;
+  margin-right: 5px;
+  color: #1A1A1A;
+}
+
+.textarea-field {
+  width: 328px;
+  height: 115px;
+}
+
+/* Section Controls */
+.section-controls {
+  position: absolute;
+  right: 20px;
+}
+
+.expand-icon {
+  display: block;
+  color: #1A1A1A;
+  margin-bottom: 160px;
+  cursor: pointer;
+}
+
+/* Dividers */
+mat-divider {
+  margin: 20px 0;
+}

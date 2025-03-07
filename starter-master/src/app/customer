@@ -8,11 +8,11 @@
     <div class="path">
       <span class="path-item">Customer</span>
       <mat-icon class="chevron">chevron_right</mat-icon>
-      <span class="path-item active">Customer Setup</span>
+      <span class="path-item active">Customer Page</span>
     </div>
   </div>
 
-  <h1 class="page-title">Customer Setup</h1>
+  <h1 class="page-title">Customer Page</h1>
 
   <div class="tab-navigation">
     <button mat-flat-button class="tab-button active">Information</button>
