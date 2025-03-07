@@ -1,248 +1,224 @@
-// Main container
-.customer {
-  position: relative;
-  background: rgba(245, 245, 245, 1.0);
-  padding: 36px 40px;
-  font-family: 'Noto Sans', 'Open Sans', sans-serif;
-}
-
-// Breadcrumb navigation
-.navigation-breadcrumb {
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
-}
-
-.breadcrumb-container {
-  display: flex;
-  align-items: center;
-}
-
-.home-icon {
-  margin-right: 12px;
-  
-  .rectangle {
-    width: 31px;
-    height: 16px;
-    background: rgba(39, 80, 155, 1.0);
-    border-radius: 3px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    mat-icon {
-      color: white;
-      font-size: 16px;
-      height: 16px;
-      width: 16px;
-    }
-  }
-}
-
-.breadcrumb-item {
-  font-size: 14px;
-  font-weight: 500;
-  color: #000000;
-  
-  &.active {
-    font-weight: 700;
-    color: #27509b;
-  }
-}
-
-.breadcrumb-arrow {
-  color: #27509b;
-  margin: 0 5px;
-  height: 14px;
-  width: 7px;
-  font-size: 14px;
-}
-
-// Page title
-.page-title {
-  font-size: 36px;
-  font-weight: 700;
-  margin-bottom: 25px;
-}
-
-// Tab navigation
-.tab-navigation {
-  display: flex;
-  margin-bottom: 30px;
-}
-
-.tab-button {
-  font-size: 14px;
-  font-weight: 400;
-  color: #000000;
-  padding: 0 24px;
-  height: 26px;
-  line-height: 26px;
-  border-radius: 0;
-  text-align: left;
-  
-  &.active {
-    background: rgba(212, 231, 250, 1.0);
-  }
-}
-
-// Content card
-.content-card {
-  padding: 20px;
-  border-radius: 0;
-  box-shadow: none !important;
-  position: relative;
-}
-
-// Section titles
-.section-title {
-  font-size: 32px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-// Section headers with icons
-.section-header {
-  display: flex;
-  align-items: center;
-  margin: 20px 0;
-  
-  .section-icon {
-    margin-right: 24px;
-  }
-  
-  .section-label {
-    font-size: 18px;
-    font-weight: 700;
-  }
-}
-
-// Form layout
-.form-row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 20px;
-  gap: 50px;
-}
-
-.form-field {
-  flex: 0 0 328px;
-  margin-bottom: 10px;
-}
-
-// Toggle row styling
-.toggle-row {
-  display: flex;
-  gap: 50px;
-  margin: 20px 0;
-}
-
-.toggle-field {
-  display: flex;
-  align-items: center;
-  
-  .Label {
-    margin-right: 10px;
-  }
-}
-
-// Form field styling
-.Label {
-  font-size: 14px;
-  font-weight: 400;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-}
-
-.mandatory {
-  color: #b71c1c;
-  margin-left: 2px;
-}
-
-// Material form field customization
-mat-form-field {
-  width: 100%;
-  
-  ::ng-deep .mat-form-field-wrapper {
+::ng-deep {
+  .mat-form-field-wrapper {
     padding-bottom: 0;
   }
-  
-  ::ng-deep .mat-form-field-outline {
-    border-radius: 8px;
-  }
-  
-  ::ng-deep .mat-form-field-infix {
-    padding: 0.5em 0;
-    border-top: 0;
-  }
-  
-  ::ng-deep input.mat-input-element,
-  ::ng-deep .mat-select-value {
-    color: rgba(165, 165, 165, 1.0);
-    font-size: 14px;
-    font-weight: 300;
-    font-family: 'Noto Sans', sans-serif;
-  }
 }
 
-// Dividers
-mat-divider {
-  margin: 30px 0;
-  border-top-color: rgba(160, 160, 160, 1.0);
-}
+.customer {
+  font-family: 'Noto Sans', sans-serif;
+  background: rgba(245, 245, 245, 1.0);
+  padding: 36px 40px;
+  position: relative;
+  min-height: 100vh;
 
-// Footer info
-.footer-info {
-  display: flex;
-  justify-content: center;
-  gap: 50px;
-  margin-top: 40px;
-  font-size: 14px;
-  font-weight: 400;
-}
+  .navigation-path {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+    .home-icon {
+      .rectangle {
+        width: 31px;
+        height: 16px;
+        background: rgba(39, 80, 155, 1.0);
+        border-radius: 3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        mat-icon {
+          color: white;
+          font-size: 16px;
+          width: 16px;
+          height: 16px;
+          line-height: 16px;
+        }
+      }
+    }
+    
+    .path-item {
+      font-size: 14px;
+      font-weight: 500;
+      margin: 0 5px;
+      
+      &.active {
+        color: #27509b;
+        font-weight: 700;
+      }
+    }
+    
+    .arrow-icon {
+      color: #27509b;
+      transform: scale(0.7);
+    }
+  }
 
-// Save button
-.save-button {
-  position: absolute;
-  top: 150px;
-  right: 40px;
-  width: 123px;
-  height: 48px;
-  border-radius: 7px;
-  font-size: 16px;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
-  mat-icon {
-    margin-right: 8px;
+  .page-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
   }
-}
 
-// Toggle button styling
-mat-slide-toggle {
-  ::ng-deep .mat-slide-toggle-bar {
-    width: 41px;
-    height: 19px;
-    border-radius: 10.5px;
-    background-color: white;
-    border: 1px solid #27509b;
+  .tab-navigation {
+    display: flex;
+    margin-bottom: 20px;
+    
+    .tab-button {
+      font-size: 14px;
+      font-weight: 400;
+      color: black;
+      margin-right: 30px;
+      padding: 0 24px;
+      height: 26px;
+      line-height: 26px;
+      
+      &.active {
+        background: rgba(212, 231, 250, 1.0);
+      }
+    }
   }
-  
-  ::ng-deep .mat-slide-toggle-thumb {
-    height: 17px;
-    width: 17px;
-    background-color: #27509b;
+
+  .content-card {
+    padding: 20px;
+    margin-bottom: 20px;
+    
+    .section-title {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    
+    mat-divider {
+      margin: 20px 0;
+    }
+    
+    .section-header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      
+      mat-icon {
+        margin-right: 8px;
+      }
+      
+      .section-header-text {
+        font-size: 18px;
+        font-weight: 700;
+      }
+    }
+    
+    .form-row {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+      
+      .form-group {
+        width: 328px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        
+        .Label {
+          font-size: 14px;
+          margin-bottom: 10px;
+          
+          .mandatory {
+            color: #b71c1c;
+          }
+        }
+        
+        mat-form-field {
+          width: 100%;
+          
+          ::ng-deep .mat-form-field-flex {
+            padding: 0 !important;
+          }
+          
+          ::ng-deep .mat-form-field-infix {
+            padding: 0.75em 0;
+            border-top: 0;
+          }
+          
+          ::ng-deep .mat-form-field-outline {
+            border-radius: 8px;
+          }
+          
+          input, mat-select {
+            font-size: 14px;
+            font-weight: 300;
+            padding-left: 21px;
+          }
+        }
+      }
+    }
+    
+    .toggle-row {
+      display: flex;
+      margin-bottom: 20px;
+      
+      .toggle-group {
+        display: flex;
+        align-items: center;
+        margin-right: 50px;
+        
+        .Label {
+          font-size: 14px;
+          margin-right: 10px;
+          
+          .mandatory {
+            color: #b71c1c;
+          }
+        }
+        
+        mat-slide-toggle {
+          ::ng-deep .mat-slide-toggle-bar {
+            width: 41px;
+            height: 19px;
+            border-radius: 10.5px;
+            background-color: white;
+            border: 1px solid #27509b;
+          }
+          
+          ::ng-deep .mat-slide-toggle-thumb {
+            width: 17px;
+            height: 17px;
+            background-color: #27509b;
+          }
+          
+          ::ng-deep.mat-checked .mat-slide-toggle-thumb-container {
+            transform: translate3d(24px, 0, 0) !important;
+          }
+        }
+      }
+    }
+    
+    .footer-info {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 40px;
+      font-size: 14px;
+      
+      .last-updated {
+        margin-right: 30px;
+      }
+    }
   }
-  
-  ::ng-deep .mat-slide-toggle-thumb-container {
-    top: 1px;
-    left: 1px;
+
+  .save-button {
+    position: absolute;
+    top: 150px;
+    right: 40px;
+    width: 123px;
+    height: 48px;
+    border-radius: 7px;
+    font-size: 16px;
+    font-weight: 500;
+    
+    mat-icon {
+      margin-right: 8px;
+    }
   }
-  
-  ::ng-deep.mat-checked .mat-slide-toggle-thumb-container {
-    transform: translate3d(24px, 0, 0) !important;
+
+  .mandatory {
+    color: #b71c1c;
   }
 }
