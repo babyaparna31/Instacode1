@@ -1,375 +1,373 @@
-<div class="customer-settings-container">
-  <!-- Navigation breadcrumb -->
-  <div class="breadcrumb-container">
-    <div class="home-icon">
-      <div class="rectangle"></div>
-      <mat-icon>home</mat-icon>
+<div class="customer-settings">
+  <!-- Navigation Breadcrumb -->
+  <div class="group-6286">
+    <div class="home-link">
+      <div class="rectangle-6"></div>
+      <mat-icon class="home-icon">home</mat-icon>
     </div>
-    <div class="breadcrumb-text">
-      <span class="customer">Customer</span>
-      <mat-icon class="chevron">chevron_right</mat-icon>
-      <span class="customer-setup">Customer Setup</span>
-    </div>
+    <div class="customer">Customer</div>
+    <mat-icon class="vector-icon">chevron_right</mat-icon>
+    <div class="customer-setup">Customer Setup</div>
+    <mat-icon class="vector-icon">chevron_right</mat-icon>
   </div>
 
-  <!-- Header with title and save button -->
-  <div class="header">
-    <h1 class="title">Customer Setup</h1>
+  <!-- Title and Save Button -->
+  <div class="title-section">
+    <h1 class="customer-setup-title">Customer Setup</h1>
     <button mat-raised-button color="primary" class="save-button">
       <mat-icon>save</mat-icon>
       Save
     </button>
   </div>
 
-  <!-- Tab navigation -->
-  <div class="tab-navigation">
+  <!-- Tabs Navigation -->
+  <div class="tabs-navigation">
     <button mat-button class="tab-button">Information</button>
     <button mat-button class="tab-button">CAM Specs</button>
     <button mat-button class="tab-button active">Settings</button>
   </div>
 
-  <!-- Main content panel -->
-  <mat-card class="main-panel">
-    <h2 class="section-title">Setting</h2>
-
-    <!-- Billing section -->
-    <div class="section-header">
-      <mat-icon>receipt</mat-icon>
-      <h3>Billing</h3>
-    </div>
-
-    <div class="form-row">
-      <div class="form-group">
-        <div class="Label">Credit Card</div>
-        <mat-form-field appearance="outline">
-          <mat-select placeholder="Default">
-            <mat-option value="">Default</mat-option>
-            <mat-option value="option1">Option 1</mat-option>
-            <mat-option value="option2">Option 2</mat-option>
-            <mat-option value="option3">Option 3</mat-option>
-          </mat-select>
-        </mat-form-field>
-      </div>
-
-      <div class="form-group">
-        <div class="Label">Card Purchase</div>
-        <mat-form-field appearance="outline">
-          <mat-select placeholder="Default">
-            <mat-option value="">Default</mat-option>
-            <mat-option value="option1">Option 1</mat-option>
-            <mat-option value="option2">Option 2</mat-option>
-            <mat-option value="option3">Option 3</mat-option>
-          </mat-select>
-        </mat-form-field>
-      </div>
-
-      <div class="form-group">
-        <div class="Label">Michelin Bill-To</div>
-        <mat-form-field appearance="outline">
-          <input matInput placeholder="Please enter code here">
-        </mat-form-field>
-      </div>
-
-      <div class="form-group">
-        <div class="Label">Michelin Ship-To</div>
-        <mat-form-field appearance="outline">
-          <input matInput placeholder="Please enter code here">
-        </mat-form-field>
-      </div>
-    </div>
-
-    <mat-divider></mat-divider>
-
-    <!-- Workorder & Casing Preferences section -->
-    <div class="section-header">
-      <mat-icon>receipt</mat-icon>
-      <h3>Workorder & Casing Preferences</h3>
-    </div>
-
-    <div class="form-row">
-      <div class="form-group">
-        <div class="Label">Preferred Treads</div>
-        <mat-form-field appearance="outline">
-          <mat-select placeholder="Default">
-            <mat-option value="">Default</mat-option>
-            <mat-option value="option1">Option 1</mat-option>
-            <mat-option value="option2">Option 2</mat-option>
-            <mat-option value="option3">Option 3</mat-option>
-          </mat-select>
-        </mat-form-field>
-      </div>
-
-      <div class="form-group">
-        <div class="Label">Casing Grade</div>
-        <mat-form-field appearance="outline">
-          <mat-select placeholder="Default">
-            <mat-option value="">Default</mat-option>
-            <mat-option value="option1">Option 1</mat-option>
-            <mat-option value="option2">Option 2</mat-option>
-            <mat-option value="option3">Option 3</mat-option>
-          </mat-select>
-        </mat-form-field>
-      </div>
-
-      <div class="form-group">
-        <div class="Label">Free Repairs</div>
-        <mat-form-field appearance="outline">
-          <mat-select placeholder="Default">
-            <mat-option value="">Default</mat-option>
-            <mat-option value="option1">Option 1</mat-option>
-            <mat-option value="option2">Option 2</mat-option>
-            <mat-option value="option3">Option 3</mat-option>
-          </mat-select>
-        </mat-form-field>
-      </div>
-
-      <div class="form-group">
-        <div class="Label">Turnaround Time <span class="mandatory">*</span></div>
-        <div class="turnaround-time-container">
-          <mat-form-field appearance="outline" class="min-field">
-            <mat-select>
-              <mat-option value=""></mat-option>
-              <mat-option value="option1">Option 1</mat-option>
-              <mat-option value="option2">Option 2</mat-option>
-              <mat-option value="option3">Option 3</mat-option>
-            </mat-select>
-          </mat-form-field>
-          <div class="y-label">Y</div>
-          <mat-form-field appearance="outline" class="max-field">
-            <input matInput placeholder="7">
-          </mat-form-field>
-        </div>
-      </div>
-    </div>
-
-    <div class="form-row">
-      <div class="form-group">
-        <div class="Label">Brand # <span class="mandatory">*</span></div>
-        <mat-form-field appearance="outline" class="small-field">
-          <mat-select placeholder="Y">
-            <mat-option value="">Y</mat-option>
-            <mat-option value="option1">Option 1</mat-option>
-            <mat-option value="option2">Option 2</mat-option>
-            <mat-option value="option3">Option 3</mat-option>
-          </mat-select>
-        </mat-form-field>
-      </div>
-
-      <div class="form-group">
-        <div class="Label">Remember Brand <span class="mandatory">*</span></div>
-        <mat-form-field appearance="outline" class="small-field">
-          <mat-select placeholder="All">
-            <mat-option value="">All</mat-option>
-            <mat-option value="option1">Option 1</mat-option>
-            <mat-option value="option2">Option 2</mat-option>
-            <mat-option value="option3">Option 3</mat-option>
-          </mat-select>
-        </mat-form-field>
-      </div>
-
-      <div class="form-group">
-        <div class="Label">Remember Casing Note <span class="mandatory">*</span></div>
-        <mat-form-field appearance="outline" class="medium-field">
-          <mat-select placeholder="Customer">
-            <mat-option value="">Customer</mat-option>
-            <mat-option value="option1">Option 1</mat-option>
-            <mat-option value="option2">Option 2</mat-option>
-            <mat-option value="option3">Option 3</mat-option>
-          </mat-select>
-        </mat-form-field>
-      </div>
-
-      <div class="form-group">
-        <div class="Label">RT DOT <span class="mandatory">*</span></div>
-        <mat-form-field appearance="outline" class="small-field">
-          <mat-select placeholder="Y">
-            <mat-option value="">Y</mat-option>
-            <mat-option value="option1">Option 1</mat-option>
-            <mat-option value="option2">Option 2</mat-option>
-            <mat-option value="option3">Option 3</mat-option>
-          </mat-select>
-        </mat-form-field>
-      </div>
-
-      <div class="form-group">
-        <div class="Label">Language <span class="mandatory">*</span></div>
-        <mat-form-field appearance="outline">
-          <mat-select placeholder="English">
-            <mat-option value="">English</mat-option>
-            <mat-option value="option1">Option 1</mat-option>
-            <mat-option value="option2">Option 2</mat-option>
-            <mat-option value="option3">Option 3</mat-option>
-          </mat-select>
-        </mat-form-field>
-      </div>
-
-      <div class="form-group">
-        <div class="Label">Wheel Processing</div>
-        <div class="toggle-container">
-          <mat-slide-toggle color="primary" class="slide-toggle" [checked]="true"></mat-slide-toggle>
-          <span class="toggle-label">Yes</span>
-        </div>
-      </div>
-    </div>
-
-    <mat-divider></mat-divider>
-
-    <!-- Reject & Scrap Preferences section -->
-    <div class="section-header">
-      <mat-icon>receipt</mat-icon>
-      <h3>Reject & Scrap Preferences</h3>
-    </div>
-
-    <div class="form-row">
-      <div class="form-group">
-        <div class="Label">Customer Rejects <span class="mandatory">*</span></div>
-        <mat-form-field appearance="outline" class="small-field">
-          <mat-select placeholder="Return">
-            <mat-option value="">Return</mat-option>
-            <mat-option value="option1">Option 1</mat-option>
-            <mat-option value="option2">Option 2</mat-option>
-            <mat-option value="option3">Option 3</mat-option>
-          </mat-select>
-        </mat-form-field>
-      </div>
-
-      <div class="form-group">
-        <div class="Label">Stocks Rejects <span class="mandatory">*</span></div>
-        <mat-form-field appearance="outline" class="small-field">
-          <mat-select placeholder="Return">
-            <mat-option value="">Return</mat-option>
-            <mat-option value="option1">Option 1</mat-option>
-            <mat-option value="option2">Option 2</mat-option>
-            <mat-option value="option3">Option 3</mat-option>
-          </mat-select>
-        </mat-form-field>
-      </div>
-
-      <div class="form-group">
-        <div class="Label">Scrap Disposal Charge <span class="mandatory">*</span></div>
-        <mat-form-field appearance="outline">
-          <mat-select placeholder="Truck Tire">
-            <mat-option value="">Truck Tire</mat-option>
-            <mat-option value="option1">Option 1</mat-option>
-            <mat-option value="option2">Option 2</mat-option>
-            <mat-option value="option3">Option 3</mat-option>
-          </mat-select>
-        </mat-form-field>
-      </div>
-    </div>
-
-    <div class="form-row">
-      <div class="form-group">
-        <div class="Label">Scrap Casing at Plant <span class="mandatory">*</span></div>
-        <div class="toggle-container">
-          <mat-slide-toggle color="primary" class="slide-toggle"></mat-slide-toggle>
-          <span class="toggle-label">Yes</span>
-        </div>
-      </div>
-
-      <div class="form-group">
-        <div class="Label">Central Reject</div>
-        <div class="toggle-container">
-          <mat-slide-toggle color="primary" class="slide-toggle"></mat-slide-toggle>
-          <span class="toggle-label">Yes</span>
-        </div>
-      </div>
-
-      <div class="form-group">
-        <div class="Label">Include Scrap Casings in Central Reject</div>
-        <div class="toggle-container">
-          <mat-slide-toggle color="primary" class="slide-toggle"></mat-slide-toggle>
-          <span class="toggle-label">Yes</span>
-        </div>
-      </div>
-    </div>
-
-    <mat-divider></mat-divider>
-
-    <!-- Label Management section -->
-    <div class="section-header">
-      <mat-icon>receipt</mat-icon>
-      <h3>Label Management</h3>
-    </div>
-
-    <div class="form-row">
-      <div class="form-group">
-        <div class="Label">Finished Label <span class="mandatory">*</span></div>
-        <mat-form-field appearance="outline">
-          <mat-select placeholder="DefC:\SNIDER\FTP_FOLDER\LABEL-TEM...">
-            <mat-option value="">DefC:\SNIDER\FTP_FOLDER\LABEL-TEM...</mat-option>
-            <mat-option value="option1">Option 1</mat-option>
-            <mat-option value="option2">Option 2</mat-option>
-            <mat-option value="option3">Option 3</mat-option>
-          </mat-select>
-        </mat-form-field>
-      </div>
-
-      <div class="form-group">
-        <div class="Label">Reject/Return Label <span class="mandatory">*</span></div>
-        <mat-form-field appearance="outline">
-          <mat-select placeholder="DefC:\SNIDER\FTP_FOLDER\LABEL-TEM...">
-            <mat-option value="">DefC:\SNIDER\FTP_FOLDER\LABEL-TEM...</mat-option>
-            <mat-option value="option1">Option 1</mat-option>
-            <mat-option value="option2">Option 2</mat-option>
-            <mat-option value="option3">Option 3</mat-option>
-          </mat-select>
-        </mat-form-field>
-      </div>
-
-      <div class="form-group">
-        <div class="Label">Reject/Scrap Label <span class="mandatory">*</span></div>
-        <mat-form-field appearance="outline">
-          <mat-select placeholder="DefC:\SNIDER\FTP_FOLDER\LABEL-TEM...">
-            <mat-option value="">DefC:\SNIDER\FTP_FOLDER\LABEL-TEM...</mat-option>
-            <mat-option value="option1">Option 1</mat-option>
-            <mat-option value="option2">Option 2</mat-option>
-            <mat-option value="option3">Option 3</mat-option>
-          </mat-select>
-        </mat-form-field>
-      </div>
-    </div>
-
-    <mat-divider></mat-divider>
-
-    <!-- POS Settings section -->
-    <div class="section-header">
-      <mat-icon>receipt</mat-icon>
-      <h3>POS Settings</h3>
-    </div>
-
-    <div class="form-row">
-      <div class="form-group">
-        <div class="Label">Interface ID1</div>
-        <mat-form-field appearance="outline">
-          <input matInput placeholder="Please enter code here">
-        </mat-form-field>
-      </div>
-
-      <div class="form-group">
-        <div class="Label">Interface ID2</div>
-        <mat-form-field appearance="outline">
-          <input matInput placeholder="Please enter code here">
-        </mat-form-field>
-      </div>
-
-      <div class="form-group">
-        <div class="Label notes-label">
+  <!-- Main Content Card -->
+  <mat-card class="main-content-card">
+    <mat-card-header>
+      <mat-card-title>Setting</mat-card-title>
+    </mat-card-header>
+    
+    <mat-card-content>
+      <!-- Billing Section -->
+      <div class="section">
+        <div class="section-header">
           <mat-icon>description</mat-icon>
-          <span>Notes</span>
+          <h2>Billing</h2>
         </div>
-        <mat-form-field appearance="outline" class="textarea-container">
-          <textarea matInput placeholder="Some notes about the customer here" rows="5"></textarea>
-          <mat-hint align="end">80/80</mat-hint>
-        </mat-form-field>
-      </div>
-    </div>
-  </mat-card>
-</div>
 
-<!-- Language toggle at top -->
-<div class="language-toggle">
-  <span class="language-option active">FR</span>
-  <div class="language-divider"></div>
-  <span class="language-option">EN</span>
+        <div class="form-row">
+          <div class="form-field">
+            <div class="Label">Credit Card</div>
+            <mat-form-field appearance="outline">
+              <mat-select placeholder="Default">
+                <mat-option value="">Default</mat-option>
+                <mat-option value="option1">Option 1</mat-option>
+                <mat-option value="option2">Option 2</mat-option>
+                <mat-option value="option3">Option 3</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="Label">Card Purchase</div>
+            <mat-form-field appearance="outline">
+              <mat-select placeholder="Default">
+                <mat-option value="">Default</mat-option>
+                <mat-option value="option1">Option 1</mat-option>
+                <mat-option value="option2">Option 2</mat-option>
+                <mat-option value="option3">Option 3</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="Label">Michelin Bill-To</div>
+            <mat-form-field appearance="outline">
+              <input matInput placeholder="Please enter Michelin Bill-to code here">
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="Label">Michelin Ship-To</div>
+            <mat-form-field appearance="outline">
+              <input matInput placeholder="Please enter Michelin Ship-To code here">
+            </mat-form-field>
+          </div>
+        </div>
+      </div>
+
+      <mat-divider></mat-divider>
+
+      <!-- Workorder & Casing Preferences Section -->
+      <div class="section">
+        <div class="section-header">
+          <mat-icon>description</mat-icon>
+          <h2>Workorder & Casing Preferences</h2>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <div class="Label">Preferred Treads</div>
+            <mat-form-field appearance="outline">
+              <mat-select placeholder="Default">
+                <mat-option value="">Default</mat-option>
+                <mat-option value="option1">Option 1</mat-option>
+                <mat-option value="option2">Option 2</mat-option>
+                <mat-option value="option3">Option 3</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="Label">Casing Grade</div>
+            <mat-form-field appearance="outline">
+              <mat-select placeholder="Default">
+                <mat-option value="">Default</mat-option>
+                <mat-option value="option1">Option 1</mat-option>
+                <mat-option value="option2">Option 2</mat-option>
+                <mat-option value="option3">Option 3</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="Label">Free Repairs</div>
+            <mat-form-field appearance="outline">
+              <mat-select placeholder="Default">
+                <mat-option value="">Default</mat-option>
+                <mat-option value="option1">Option 1</mat-option>
+                <mat-option value="option2">Option 2</mat-option>
+                <mat-option value="option3">Option 3</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="Label">Turnaround Time <span class="mandatory">*</span></div>
+            <mat-form-field appearance="outline">
+              <input matInput placeholder="7">
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="Label">Remaining Tread Depth Min and Max <span class="mandatory">*</span></div>
+            <div class="mini-fields-container">
+              <mat-form-field appearance="outline" class="mini-field">
+                <mat-select>
+                  <mat-option value=""></mat-option>
+                  <mat-option value="option1">Option 1</mat-option>
+                  <mat-option value="option2">Option 2</mat-option>
+                </mat-select>
+              </mat-form-field>
+              <div class="mini-field-label">Y</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field small-field">
+            <div class="Label">Brand # <span class="mandatory">*</span></div>
+            <mat-form-field appearance="outline">
+              <mat-select placeholder="Y">
+                <mat-option value="">Y</mat-option>
+                <mat-option value="option1">Option 1</mat-option>
+                <mat-option value="option2">Option 2</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="form-field small-field">
+            <div class="Label">Remember Brand <span class="mandatory">*</span></div>
+            <mat-form-field appearance="outline">
+              <mat-select placeholder="All">
+                <mat-option value="">All</mat-option>
+                <mat-option value="option1">Option 1</mat-option>
+                <mat-option value="option2">Option 2</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="form-field medium-field">
+            <div class="Label">Remember Casing Note <span class="mandatory">*</span></div>
+            <mat-form-field appearance="outline">
+              <mat-select placeholder="Customer">
+                <mat-option value="">Customer</mat-option>
+                <mat-option value="option1">Option 1</mat-option>
+                <mat-option value="option2">Option 2</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="form-field small-field">
+            <div class="Label">RT DOT <span class="mandatory">*</span></div>
+            <mat-form-field appearance="outline">
+              <mat-select placeholder="Y">
+                <mat-option value="">Y</mat-option>
+                <mat-option value="option1">Option 1</mat-option>
+                <mat-option value="option2">Option 2</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="Label">Language <span class="mandatory">*</span></div>
+            <mat-form-field appearance="outline">
+              <mat-select placeholder="English">
+                <mat-option value="">English</mat-option>
+                <mat-option value="option1">Option 1</mat-option>
+                <mat-option value="option2">Option 2</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="Label">Wheel Processing</div>
+            <div class="toggle-container">
+              <mat-slide-toggle color="primary" [checked]="true"></mat-slide-toggle>
+              <div class="toggle-label">Yes</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <mat-divider></mat-divider>
+
+      <!-- Reject & Scrap Preferences Section -->
+      <div class="section">
+        <div class="section-header">
+          <mat-icon>description</mat-icon>
+          <h2>Reject & Scrap Preferences</h2>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field small-field">
+            <div class="Label">Customer Rejects <span class="mandatory">*</span></div>
+            <mat-form-field appearance="outline">
+              <mat-select placeholder="Return">
+                <mat-option value="">Return</mat-option>
+                <mat-option value="option1">Option 1</mat-option>
+                <mat-option value="option2">Option 2</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="form-field small-field">
+            <div class="Label">Stocks Rejects <span class="mandatory">*</span></div>
+            <mat-form-field appearance="outline">
+              <mat-select placeholder="Return">
+                <mat-option value="">Return</mat-option>
+                <mat-option value="option1">Option 1</mat-option>
+                <mat-option value="option2">Option 2</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="Label">Scrap Disposal Charge <span class="mandatory">*</span></div>
+            <mat-form-field appearance="outline">
+              <mat-select placeholder="Truck Tire">
+                <mat-option value="">Truck Tire</mat-option>
+                <mat-option value="option1">Option 1</mat-option>
+                <mat-option value="option2">Option 2</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field toggle-field">
+            <div class="Label">Scrap Casing at Plant <span class="mandatory">*</span></div>
+            <div class="toggle-container">
+              <mat-slide-toggle color="primary"></mat-slide-toggle>
+              <div class="toggle-label">Yes</div>
+            </div>
+          </div>
+
+          <div class="form-field toggle-field">
+            <div class="Label">Central Reject</div>
+            <div class="toggle-container">
+              <mat-slide-toggle color="primary"></mat-slide-toggle>
+              <div class="toggle-label">Yes</div>
+            </div>
+          </div>
+
+          <div class="form-field toggle-field">
+            <div class="Label">Include Scrap Casings in Central Reject</div>
+            <div class="toggle-container">
+              <mat-slide-toggle color="primary"></mat-slide-toggle>
+              <div class="toggle-label">Yes</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <mat-divider></mat-divider>
+
+      <!-- Label Management Section -->
+      <div class="section">
+        <div class="section-header">
+          <mat-icon>description</mat-icon>
+          <h2>Label Management</h2>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <div class="Label">Finished Label <span class="mandatory">*</span></div>
+            <mat-form-field appearance="outline">
+              <mat-select placeholder="DefC:\SNIDER\FTP_FOLDER\LABEL-TEM...">
+                <mat-option value="">DefC:\SNIDER\FTP_FOLDER\LABEL-TEM...</mat-option>
+                <mat-option value="option1">Option 1</mat-option>
+                <mat-option value="option2">Option 2</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="Label">Reject/Return Label <span class="mandatory">*</span></div>
+            <mat-form-field appearance="outline">
+              <mat-select placeholder="DefC:\SNIDER\FTP_FOLDER\LABEL-TEM...">
+                <mat-option value="">DefC:\SNIDER\FTP_FOLDER\LABEL-TEM...</mat-option>
+                <mat-option value="option1">Option 1</mat-option>
+                <mat-option value="option2">Option 2</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="Label">Reject/Scrap Label <span class="mandatory">*</span></div>
+            <mat-form-field appearance="outline">
+              <mat-select placeholder="DefC:\SNIDER\FTP_FOLDER\LABEL-TEM...">
+                <mat-option value="">DefC:\SNIDER\FTP_FOLDER\LABEL-TEM...</mat-option>
+                <mat-option value="option1">Option 1</mat-option>
+                <mat-option value="option2">Option 2</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </div>
+        </div>
+      </div>
+
+      <mat-divider></mat-divider>
+
+      <!-- POS Settings Section -->
+      <div class="section">
+        <div class="section-header">
+          <mat-icon>description</mat-icon>
+          <h2>POS Settings</h2>
+        </div>
+
+        <div class="form-row">
+          <div class="form-field">
+            <div class="Label">Interface ID1</div>
+            <mat-form-field appearance="outline">
+              <input matInput placeholder="Please enter Interface ID1 code here">
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="Label">Interface ID2</div>
+            <mat-form-field appearance="outline">
+              <input matInput placeholder="Please enter Interface ID2 code here">
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="Label notes-label">
+              <mat-icon>description</mat-icon>
+              Notes
+            </div>
+            <mat-form-field appearance="outline" class="textarea-field">
+              <textarea matInput placeholder="Some notes about the customer here" maxlength="80"></textarea>
+              <mat-hint align="end">80/80</mat-hint>
+            </mat-form-field>
+          </div>
+        </div>
+      </div>
+    </mat-card-content>
+  </mat-card>
 </div>
