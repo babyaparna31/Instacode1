@@ -1,0 +1,148 @@
+<div class="newguidlines1">
+  <mat-toolbar color="primary">
+    <div class="toolbar-content">
+      <div class="language-options">
+        <button mat-button>FR</button>
+        <button mat-button>EN</button>
+      </div>
+      <div class="avatar">
+        <img src="assets/images/a_e8fdc0bf53ba428e881ca55ba21c2078bc6481f7.jpg" alt="Avatar">
+      </div>
+    </div>
+  </mat-toolbar>
+
+  <div class="midsection">
+    <div class="breadcrumb">
+      <div class="home-link">
+        <div class="home-box">
+          <mat-icon>home</mat-icon>
+        </div>
+      </div>
+      <span class="customer">Customer</span>
+      <mat-icon>chevron_right</mat-icon>
+      <span class="customer-setup">Customer Setup</span>
+    </div>
+
+    <h1 class="page-title">Customer Setup</h1>
+
+    <mat-tab-group>
+      <mat-tab label="Information" class="active-tab"></mat-tab>
+      <mat-tab label="CAM Specs"></mat-tab>
+      <mat-tab label="Settings"></mat-tab>
+    </mat-tab-group>
+
+    <mat-card class="main-card">
+      <h2 class="section-title">Information</h2>
+
+      <div class="section-header">
+        <div class="section-icon">
+          <mat-icon>folder</mat-icon>
+        </div>
+        <h3>Generic Information</h3>
+      </div>
+
+      <mat-divider></mat-divider>
+
+      <div class="form-row">
+        <mat-form-field appearance="outline">
+          <div class="Label">Customer Code</div>
+          <input matInput placeholder="Please enter code here">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <div class="Label">Customer Name</div>
+          <input matInput placeholder="Please enter name here">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <div class="Label">Type</div>
+          <input matInput placeholder="Please enter type here">
+        </mat-form-field>
+      </div>
+
+      <div class="toggle-row">
+        <div class="toggle-group">
+          <div class="toggle-label">
+            <div class="Label">Active</div>
+            <span class="mandatory">*</span>
+          </div>
+          <mat-slide-toggle color="primary"></mat-slide-toggle>
+        </div>
+
+        <div class="toggle-group">
+          <div class="Label">BTM Flag</div>
+          <mat-slide-toggle color="primary"></mat-slide-toggle>
+        </div>
+
+        <div class="toggle-group">
+          <div class="Label">RFID Flag</div>
+          <mat-slide-toggle color="primary"></mat-slide-toggle>
+        </div>
+      </div>
+
+      <div class="section-header">
+        <div class="section-icon">
+          <mat-icon>folder</mat-icon>
+        </div>
+        <h3>Geographic Information</h3>
+      </div>
+
+      <mat-divider></mat-divider>
+
+      <div class="form-row">
+        <mat-form-field appearance="outline">
+          <div class="Label">Sales Id</div>
+          <input matInput placeholder="Please enter sales id here">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <div class="Label">Address 2</div>
+          <input matInput placeholder="Please enter address here">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <div class="Label">State / Province</div>
+          <input matInput placeholder="Please enter state/province here">
+        </mat-form-field>
+      </div>
+
+      <div class="section-header">
+        <div class="section-icon">
+          <mat-icon>folder</mat-icon>
+        </div>
+        <h3>Geographic Information</h3>
+      </div>
+
+      <mat-divider></mat-divider>
+
+      <div class="form-row">
+        <mat-form-field appearance="outline">
+          <div class="Label">Contact</div>
+          <input matInput placeholder="Please enter contact here">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <div class="Label">Phone Number</div>
+          <input matInput placeholder="Please enter phone here">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+          <div class="Label">Email Address</div>
+          <input matInput placeholder="Please enter email id here">
+        </mat-form-field>
+      </div>
+
+      <div class="footer-info">
+        <span class="last-updated">Last updated: CCYY/MM/DD at 08:00 EST by BTN UserID</span>
+        <span class="created">Created: CCYY/MM/DD at 14:00 EST by BTNUserID</span>
+      </div>
+    </mat-card>
+  </div>
+
+  <div class="button-container">
+    <button mat-raised-button color="primary">
+      <mat-icon>save</mat-icon>
+      Save
+    </button>
+  </div>
+</div>

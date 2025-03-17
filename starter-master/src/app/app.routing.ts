@@ -10,7 +10,18 @@ export const routes: Routes = [
 { path: '', loadChildren: () => import('./home/home.module').then((m) => m.HomeModule) },
       { path: 'contact', loadChildren: () => import('./contact/contact.module').then((m) => m.ContactModule) },
       { path: 'settings', loadChildren: () => import('./settings/settings.module').then((m) => m.SettingsModule) },
-      { path: 'customer', loadChildren: () => import('./pages/customer/customer.module').then((m) => m.CustomerModule) }
+      { path: 'newguidlines1', loadChildren: () => import('./pages/newguidlines1/newguidlines1.module').then((m) => m.Newguidlines1Module) },
+      { path: 'newguidlines2', loadChildren: () => import('./pages/newguidlines2/newguidlines2.module').then((m) => m.Newguidlines2Module) }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     
     
