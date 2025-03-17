@@ -1,0 +1,268 @@
+<div class="Customer">
+  <div class="Midsection">
+    <div class="Group_6286">
+      <div class="Vector">
+        <mat-icon>chevron_right</mat-icon>
+      </div>
+      <div class="Vector">
+        <mat-icon>chevron_right</mat-icon>
+      </div>
+      <span class="Customer">Customer</span>
+      <span class="Customer_Setup">Customer Setup</span>
+      <div class="Group_6285">
+        <div class="Rectangle_6"></div>
+        <div class="Vector">
+          <mat-icon>home</mat-icon>
+        </div>
+      </div>
+    </div>
+    <span class="Customer_Setup">Customer Setup</span>
+
+    <mat-tab-group>
+      <mat-tab label="Information" class="active-tab">
+        <ng-template matTabContent>
+          <!-- Information content will be here -->
+        </ng-template>
+      </mat-tab>
+      <mat-tab label="CAM Specs">
+        <ng-template matTabContent>
+          <!-- CAM Specs content will be here -->
+        </ng-template>
+      </mat-tab>
+      <mat-tab label="Settings">
+        <ng-template matTabContent>
+          <!-- Settings content will be here -->
+        </ng-template>
+      </mat-tab>
+    </mat-tab-group>
+
+    <form [formGroup]="customerForm" (ngSubmit)="onSubmit()">
+      <mat-card class="main-card">
+        <h1 class="section-title">Information</h1>
+
+        <div class="section-header">
+          <div class="section-icon">
+            <mat-icon>folder</mat-icon>
+          </div>
+          <h2 class="subsection-title">Generic Information</h2>
+        </div>
+
+        <mat-divider></mat-divider>
+
+        <div class="form-container">
+          <div class="form-field">
+            <div class="field-label">
+              <label for="customer-code">Customer code <span class="mandatory">*</span></label>
+            </div>
+            <mat-form-field appearance="outline">
+              <input matInput id="customer-code" formControlName="customerCode" placeholder="Please enter customer code here">
+              <mat-error *ngIf="isFieldInvalid('customerCode')">{{ getErrorMessage('customerCode') }}</mat-error>
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="field-label">
+              <label for="customer-name">Customer Name <span class="mandatory">*</span></label>
+            </div>
+            <mat-form-field appearance="outline">
+              <input matInput id="customer-name" formControlName="customerName" placeholder="Please enter customer name here">
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="field-label">
+              <label for="customer-type">Type <span class="mandatory">*</span></label>
+            </div>
+            <mat-form-field appearance="outline">
+              <mat-select id="customer-type" formControlName="customerType" placeholder="Please select type">
+                <mat-option *ngFor="let option of getDropdownOptions('customerType')" [value]="option">
+                  {{ option }}
+                </mat-option>
+              </mat-select>
+              <mat-error *ngIf="isFieldInvalid('customerType')">{{ getErrorMessage('customerType') }}</mat-error>
+            </mat-form-field>
+          </div>
+
+          <div class="toggle-section">
+            <div class="toggle-field">
+              <div class="field-label">
+                <label for="active-toggle">Active <span class="mandatory">*</span></label>
+              </div>
+              <mat-slide-toggle id="active-toggle" formControlName="active" color="primary"></mat-slide-toggle>
+            </div>
+
+            <div class="toggle-field">
+              <div class="field-label">
+                <label for="btm-toggle">BTM Flag</label>
+              </div>
+              <mat-slide-toggle id="btm-toggle" formControlName="btmFlag" color="primary"></mat-slide-toggle>
+            </div>
+
+            <div class="toggle-field">
+              <div class="field-label">
+                <label for="rfid-toggle">RFID Flag</label>
+              </div>
+              <mat-slide-toggle id="rfid-toggle" formControlName="rfidFlag" color="primary"></mat-slide-toggle>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-header">
+          <div class="section-icon">
+            <mat-icon>folder</mat-icon>
+          </div>
+          <h2 class="subsection-title">Geographic Information</h2>
+        </div>
+
+        <mat-divider></mat-divider>
+
+        <div class="form-container">
+          <div class="form-field">
+            <div class="field-label">
+              <label for="address1">Address 1</label>
+            </div>
+            <mat-form-field appearance="outline">
+              <input matInput id="address1" formControlName="address1" placeholder="Please enter address 1 here">
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="field-label">
+              <label for="address2">Address 2</label>
+            </div>
+            <mat-form-field appearance="outline">
+              <input matInput id="address2" formControlName="address2" placeholder="Please enter address here">
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="field-label">
+              <label for="city">City</label>
+            </div>
+            <mat-form-field appearance="outline">
+              <input matInput id="city" formControlName="city" placeholder="Please enter city here">
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="field-label">
+              <label for="state-province">State / Province</label>
+            </div>
+            <mat-form-field appearance="outline">
+              <input matInput id="state-province" formControlName="stateProvince" placeholder="Please enter state/province here">
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="field-label">
+              <label for="postal-code">Postal Code</label>
+            </div>
+            <mat-form-field appearance="outline">
+              <input matInput id="postal-code" formControlName="postalCode" placeholder="Please enter postal code">
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="field-label">
+              <label for="country">Country <span class="mandatory">*</span></label>
+            </div>
+            <mat-form-field appearance="outline">
+              <mat-select id="country" formControlName="country" placeholder="Please select type">
+                <mat-option *ngFor="let option of getDropdownOptions('country')" [value]="option">
+                  {{ option }}
+                </mat-option>
+              </mat-select>
+              <mat-error *ngIf="isFieldInvalid('country')">{{ getErrorMessage('country') }}</mat-error>
+            </mat-form-field>
+          </div>
+        </div>
+
+        <div class="section-header">
+          <div class="section-icon">
+            <mat-icon>folder</mat-icon>
+          </div>
+          <h2 class="subsection-title">Sales & Contact Information</h2>
+        </div>
+
+        <mat-divider></mat-divider>
+
+        <div class="form-container">
+          <div class="form-field">
+            <div class="field-label">
+              <label for="contact">Contact</label>
+            </div>
+            <mat-form-field appearance="outline">
+              <input matInput id="contact" formControlName="contact" placeholder="Please enter contact here">
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="field-label">
+              <label for="email-address">Email Address</label>
+            </div>
+            <mat-form-field appearance="outline">
+              <input matInput id="email-address" formControlName="emailAddress" placeholder="Please enter email here">
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="field-label">
+              <label for="phone-number">Phone Number</label>
+            </div>
+            <mat-form-field appearance="outline">
+              <input matInput id="phone-number" formControlName="phoneNumber" placeholder="Please enter phone no here">
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="field-label">
+              <label for="fax-number">Fax Number</label>
+            </div>
+            <mat-form-field appearance="outline">
+              <input matInput id="fax-number" formControlName="faxNumber" placeholder="Please enter fax no here">
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="field-label">
+              <label for="sales-id">Sales Id</label>
+            </div>
+            <mat-form-field appearance="outline">
+              <input matInput id="sales-id" formControlName="salesId" placeholder="Please enter sales id here">
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="field-label">
+              <label for="route-id">Route Id</label>
+            </div>
+            <mat-form-field appearance="outline">
+              <input matInput id="route-id" formControlName="routeId" placeholder="Please enter Route Id here">
+            </mat-form-field>
+          </div>
+
+          <div class="form-field">
+            <div class="field-label">
+              <label for="enterprise-id">Enterprise Id</label>
+            </div>
+            <mat-form-field appearance="outline">
+              <input matInput id="enterprise-id" formControlName="enterpriseId" placeholder="Please enter enterprise id here">
+            </mat-form-field>
+          </div>
+        </div>
+
+        <div class="footer">
+          <span>Last updated: CCYY/MM/DD at 08:00 EST by BTN UserID</span>
+          <span>Created: CCYY/MM/DD at 14:00 EST by BTNUserID</span>
+        </div>
+      </mat-card>
+
+      <div class="button-container">
+        <button mat-raised-button color="primary" type="submit">
+          <mat-icon>save</mat-icon>
+          Save
+        </button>
+      </div>
+    </form>
+  </div>
+</div>

@@ -8,49 +8,5 @@
       "name": "type1",
       "id": 1
     }
-  ],
-  "Customer_Select_your_country": [
-    {
-      "name": "United States",
-      "id": 0
-    },
-    {
-      "name": "Canada",
-      "id": 1
-    },
-    {
-      "name": "United Kingdom",
-      "id": 2
-    },
-    {
-      "name": "Germany",
-      "id": 3
-    },
-    {
-      "name": "France",
-      "id": 4
-    }
-  ],
-  "Createsavenewcustomerwithalert_United_States_of_America": [
-    {
-      "name": "United States",
-      "id": 0
-    },
-    {
-      "name": "Canada",
-      "id": 1
-    },
-    {
-      "name": "United Kingdom",
-      "id": 2
-    },
-    {
-      "name": "Germany",
-      "id": 3
-    },
-    {
-      "name": "France",
-      "id": 4
-    }
   ]
 }

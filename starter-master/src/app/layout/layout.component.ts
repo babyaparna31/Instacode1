@@ -16,7 +16,7 @@ export class LayoutComponent {
 
   year = moment.utc().format('YYYY');
   version = environment.version;
-  title = 'Starter';
+  title = 'Customer Management';
   darkMode = this.className === darkClassName;
 
   constructor(private themingService: ThemingService) {}

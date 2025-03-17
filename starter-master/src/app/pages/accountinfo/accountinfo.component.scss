@@ -1,0 +1,180 @@
+@use '@angular/material' as mat;
+
+.AccountInfo {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  background: rgba(245, 245, 245, 1.0);
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.Midsection {
+  width: 90%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.Group_6286 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.Group_6285 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 31px;
+  height: 16px;
+  background-color: rgba(39, 80, 155, 1.0);
+  border-radius: 3px;
+  margin-right: 15px;
+}
+
+.Customer, .Customer_Setup {
+  text-decoration: none;
+}
+
+.Customer {
+  color: rgba(0, 0, 0, 1.0);
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 5px;
+}
+
+.Customer_Setup {
+  color: rgba(39, 80, 155, 1.0);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+h1.Customer_Setup {
+  color: rgba(0, 0, 0, 1.0);
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.Vector {
+  color: white;
+  font-size: 16px;
+}
+
+nav {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.Group_6312 {
+  position: relative;
+  background-color: rgba(212, 231, 250, 1.0);
+  height: 26px;
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.Group_6312 .divider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: rgba(39, 80, 155, 1.0);
+}
+
+.active {
+  color: rgba(39, 80, 155, 1.0);
+}
+
+mat-card {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+mat-card-title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.toggle-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.field-label {
+  font-size: 14px;
+  font-weight: 400;
+  margin-right: 5px;
+}
+
+.mandatory {
+  color: rgba(183, 28, 28, 1.0);
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+  gap: 15px;
+}
+
+.view-fleets-btn {
+  background-color: rgba(252, 229, 0, 1.0);
+  color: rgba(0, 0, 0, 1.0);
+}
+
+.edit-selection-btn, .save-btn {
+  background-color: rgba(39, 80, 155, 1.0);
+  color: white;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.section-title mat-icon {
+  margin-right: 10px;
+}
+
+mat-divider {
+  margin: 15px 0;
+}
+
+.form-fields-container {
+  margin: 20px 0;
+}
+
+.form-field-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.form-field-column {
+  flex: 1;
+  min-width: 300px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.Group_6300, .Group_6310 {
+  display: flex;
+  align-items: center;
+}
+
+.Group_6300 mat-icon, .Group_6310 mat-icon {
+  margin-right: 10px;
+}
