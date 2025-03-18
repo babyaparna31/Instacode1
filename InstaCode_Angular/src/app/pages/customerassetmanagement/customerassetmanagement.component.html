@@ -1,0 +1,66 @@
+<div class="customer-asset-management-container">
+  <div class="breadcrumb-section">
+    <div class="breadcrumb-home">
+      <mat-icon class="home-icon">home</mat-icon>
+    </div>
+    <span class="breadcrumb-item">Customer</span>
+    <mat-icon class="breadcrumb-arrow">chevron_right</mat-icon>
+    <span class="breadcrumb-item active">Customer Setup</span>
+  </div>
+
+  <h1 class="page-title">Customer Setup</h1>
+
+  <mat-tab-group class="custom-tabs">
+    <mat-tab label="Information"></mat-tab>
+    <mat-tab label="CAM Specs" class="active-tab"></mat-tab>
+    <mat-tab label="Settings"></mat-tab>
+  </mat-tab-group>
+
+  <mat-card class="main-card">
+    <h2 class="section-title">Customer Asset Management</h2>
+
+    <div class="form-container">
+      <div class="spec-selection-section">
+        <div class="field-label">CAM Spec Name</div>
+        <mat-form-field appearance="outline" class="spec-dropdown">
+          <mat-select>
+            <mat-option value="" selected>DEFAULT</mat-option>
+            <mat-option value="option1">Option 1</mat-option>
+            <mat-option value="option2">Option 2</mat-option>
+            <mat-option value="option3">Option 3</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+
+      <div class="repair-limits-section">
+        <span class="field-label">Repair Limits</span>
+        <div class="radio-options">
+          <mat-radio-group>
+            <div class="radio-option">
+              <mat-radio-button value="lifetime" checked>Lifetime</mat-radio-button>
+            </div>
+            <div class="radio-option">
+              <mat-radio-button value="perRetread">Per Retread</mat-radio-button>
+            </div>
+          </mat-radio-group>
+        </div>
+      </div>
+
+      <div class="info-section">
+        <mat-icon class="info-icon">info</mat-icon>
+        <span class="info-text">Clicking on View CAM Spec button will redirect you to CAM Spec menu, you will leave this page.</span>
+      </div>
+
+      <div class="action-buttons">
+        <button mat-raised-button color="primary" class="view-button">
+          <mat-icon>visibility</mat-icon>
+          View CAM Spec
+        </button>
+        <button mat-raised-button class="export-button">
+          <mat-icon>download</mat-icon>
+          Export CAM Spec
+        </button>
+      </div>
+    </div>
+  </mat-card>
+</div>

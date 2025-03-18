@@ -1,0 +1,213 @@
+@use '@angular/material' as mat;
+
+.customer-asset-management-container {
+  padding: 20px;
+  font-family: 'Noto Sans', sans-serif;
+  
+  .breadcrumb-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    
+    .breadcrumb-home {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 31px;
+      height: 16px;
+      background-color: #27509B;
+      border-radius: 3px;
+      margin-right: 5px;
+      
+      .home-icon {
+        font-size: 16px;
+        color: white;
+        height: 16px;
+        width: 16px;
+      }
+    }
+    
+    .breadcrumb-item {
+      font-size: 14px;
+      font-weight: 500;
+      margin: 0 5px;
+      
+      &.active {
+        color: #27509B;
+        font-weight: 700;
+      }
+    }
+    
+    .breadcrumb-arrow {
+      color: #27509B;
+      font-size: 14px;
+      height: 14px;
+      width: 14px;
+    }
+  }
+  
+  .page-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .custom-tabs {
+    margin-bottom: 15px;
+    
+    ::ng-deep .mat-tab-label {
+      min-width: 80px;
+      padding: 0 15px;
+      
+      &.mat-tab-label-active {
+        background-color: #D4E7FA;
+        opacity: 1;
+      }
+    }
+  }
+  
+  .main-card {
+    padding: 20px;
+    
+    .section-title {
+      font-size: 32px;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+    
+    .form-container {
+      display: flex;
+      flex-direction: column;
+      
+      .spec-selection-section {
+        margin-bottom: 20px;
+        
+        .field-label {
+          font-size: 12px;
+          margin-bottom: 8px;
+          display: block;
+        }
+        
+        .spec-dropdown {
+          width: 325px;
+        }
+      }
+      
+      .repair-limits-section {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        
+        .field-label {
+          font-size: 14px;
+          margin-right: 20px;
+        }
+        
+        .radio-options {
+          display: flex;
+          
+          .radio-option {
+            margin-right: 20px;
+            
+            ::ng-deep .mat-radio-button {
+              .mat-radio-outer-circle {
+                border-color: #27509B;
+              }
+              
+              &.mat-radio-checked .mat-radio-inner-circle {
+                background-color: #27509B;
+              }
+            }
+          }
+        }
+      }
+      
+      .info-section {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        
+        .info-icon {
+          color: #27509B;
+          margin-right: 10px;
+        }
+        
+        .info-text {
+          font-size: 14px;
+        }
+      }
+      
+      .action-buttons {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 20px;
+        
+        .view-button {
+          background-color: #27509B;
+          color: white;
+          border-radius: 7px;
+          margin-right: 20px;
+          
+          mat-icon {
+            margin-right: 10px;
+          }
+        }
+        
+        .export-button {
+          background-color: #FCE500;
+          color: black;
+          border-radius: 8px;
+          
+          mat-icon {
+            color: #27509B;
+            margin-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .customer-asset-management-container {
+    .form-container {
+      .spec-selection-section {
+        .spec-dropdown {
+          width: 100%;
+        }
+      }
+      
+      .repair-limits-section {
+        flex-direction: column;
+        align-items: flex-start;
+        
+        .field-label {
+          margin-bottom: 10px;
+        }
+      }
+      
+      .action-buttons {
+        flex-direction: column;
+        
+        .view-button {
+          margin-right: 0;
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .customer-asset-management-container {
+    .page-title {
+      font-size: 28px;
+    }
+    
+    .main-card {
+      .section-title {
+        font-size: 24px;
+      }
+    }
+  }
+}
