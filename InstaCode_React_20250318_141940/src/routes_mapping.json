@@ -1,0 +1,17 @@
+[
+  {
+    "component_name": "Accountinfo",
+    "route": "/accountinfo",
+    "routing_config": {}
+  },
+  {
+    "component_name": "Customer",
+    "route": "/customer",
+    "routing_config": {}
+  },
+  {
+    "component_name": "Customerassetmanagement",
+    "route": "/customerassetmanagement",
+    "routing_config": {}
+  }
+]
